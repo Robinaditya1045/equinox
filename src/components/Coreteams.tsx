@@ -23,7 +23,7 @@ const CorePeople: React.FC<PeopleProps> = ({ people, title }) => {
                 bg-clip-text text-transparent
                 drop-shadow-lg select-none"
       >
-        {title}
+       {people.length > 0 && title} 
       </h1>
 
       {/* Coordinators Flexbox */}

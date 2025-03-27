@@ -134,10 +134,10 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName, bg_img }) => {
       {/* Left side: vertical title column (always visible) */}
       <div className="w-full md:w-1/4 flex flex-col justify-center items-center md:pr-8">
         <div
-          className={`text-6xl md:mt-8 mb-10 ${bg_img} bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
+          className={`text-6xl md:mt-8 mb-10 bg-[#EAE3BA] bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
         >
           {titleLines.map((line, idx) => (
-            <div className="px-4" key={idx}>
+            <div key={idx}>
               {line}
             </div>
           ))}
@@ -166,7 +166,7 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName, bg_img }) => {
                     <h2 className="text-2xl font-semibold mb-2 text-[#EAE3BA]">{item.name}</h2>
                     <div className="mr-4">
                       <Image src={lampSrc} alt="Lamp Status" width={20} height={20} />
-                    </div>
+                    </div>d
                   </div>
                   <p className="text-sm text-[#977864] mb-4">
                     Start Time: {item.start_time} | {item.start_date}

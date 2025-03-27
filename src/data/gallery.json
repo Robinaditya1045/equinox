@@ -12,6 +12,8 @@
     { "id": 11, "src": "/images/gallery/image11.jpg", "alt": "Image 11" },
     { "id": 12, "src": "/images/gallery/image12.jpg", "alt": "Image 12" },
     { "id": 13, "src": "/images/gallery/image13.jpg", "alt": "Image 13" },
-    { "id": 14, "src": "/images/gallery/image14.jpg", "alt": "Image 14" }
+    { "id": 14, "src": "/images/gallery/image14.jpg", "alt": "Image 14" },
+    { "id": 15, "src": "/images/gallery/image15.jpg", "alt": "Image 15" },
+    { "id": 16, "src": "/images/gallery/image16.jpg", "alt": "Image 16" }
   ]
   
