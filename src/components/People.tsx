@@ -15,7 +15,7 @@ interface PeopleProps {
 const People: React.FC<PeopleProps> = ({ people, title }) => {
   // Destructure props here
   return (
-    <section className="relative z-10 w-full max-w-4xl px-4 ">
+    <section className="relative z-10 w-full max-w-4xl px-4 mb-16">
       <h1
         className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl
                 mb-8 sm:mb-12 font-atelier
@@ -26,7 +26,6 @@ const People: React.FC<PeopleProps> = ({ people, title }) => {
         {title}
       </h1>
 
-      {/* Coordinators Flexbox */}
       <div
         className="flex flex-col sm:flex-row flex-wrap justify-center items-center 
                 gap-6 sm:gap-8 lg:gap-10"
