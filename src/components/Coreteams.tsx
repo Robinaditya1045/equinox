@@ -12,7 +12,7 @@ interface PeopleProps {
   title: string;
 }
 
-const People: React.FC<PeopleProps> = ({ people, title }) => {
+const CorePeople: React.FC<PeopleProps> = ({ people, title }) => {
   // Destructure props here
   return (
     <section className="relative z-10 w-full max-w-4xl px-4 mt-10">
@@ -64,4 +64,4 @@ const People: React.FC<PeopleProps> = ({ people, title }) => {
   );
 };
 
-export default People;
+export default CorePeople;
