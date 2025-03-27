@@ -145,7 +145,7 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
       </div>
 
       {/* Right side: conditionally show either the list of events OR single event */}
-      <div className=" flex justify-center" ref={eventRef}>
+      <div className=" flex flex-row justify-center" ref={eventRef}>
         {selectedEvent ? (
           <SingleEvent event={selectedEvent} onBack={() => setSelectedEvent(null)} />
         ) : (
@@ -159,12 +159,12 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
               return (
                 <div
                   key={index}
-                  className="relative bg-[#120303] p-6 border border-[#c9c2b6] shadow-md md:w-full cursor-pointer hover:opacity-80 transition duration-300 ease-in-out"
+                  className=" bg-[#120303] p-6 border border-[#c9c2b6] shadow-md md:w-full cursor-pointer hover:opacity-80 transition duration-300 ease-in-out"
                   onClick={() => setSelectedEvent(item)}
                 >
                   <div className="flex flex-row justify-between">
                     <h2 className="text-2xl font-semibold mb-2 text-[#EAE3BA]">{item.name}</h2>
-                    <div className="mr-4">
+                    <div className="mr-2">
                       <Image src={lampSrc} alt="Lamp Status" width={20} height={20} />
                     </div>
                   </div>
