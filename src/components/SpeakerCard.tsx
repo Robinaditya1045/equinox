@@ -13,7 +13,7 @@ interface SpeakerCardProps {
 
 export const SpeakerCard = ({ name, desc, image, right, left }: SpeakerCardProps) => {
   const content = (
-    <div className="flex-1 md:max-w-[500px] relative max-sm:text-center">
+    <div className="flex-1 md:max-w-[500px] relative max-md:text-center">
       <h1 className="text-4xl mb-3 font-young-serif text-[#EAE3BA]">{name}</h1>
       <p className="text-base font-young-serif relative pb-8 after:content-[''] after:absolute after:bottom-0 after:left-0 after:bg-[#EAE3BA] after:h-[5px] after:w-[60%] max-md:after:left-[20%] max-md:after:right-[20%] max-md:after:w-[60%] max-md:text-center">
         {desc}

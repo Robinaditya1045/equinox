@@ -51,34 +51,27 @@ const Navbar = () => {
             isOpen ? "flex h-screen" : "hidden"
           } flex-col md:flex md:flex-row  items-center justify-center gap-6 md:gap-20`}
         >
-          <Link href={"/speakers"} onClick={() => setIsOpen(false)}>
-            <p className="text-white text-lg md:text-base">Speakers</p>
+          <Link href={"/"} onClick={() => setIsOpen(false)}>
+            <p className="text-white text-lg md:text-base">Home</p>
           </Link>
           <Link href={"/events"} onClick={() => setIsOpen(false)}>
             <p className="text-white text-lg md:text-base">Events</p>
           </Link>
           <Link
-            href={"/"}
-            className="relative  w-28 md:w-32 h-16"
+            href={"/speakers"}
             onClick={() => setIsOpen(false)}
           >
-            <Image
-              src="/images/logo.png"
-              alt="logo"
-              className="absolute -top-3"
-              width={150}
-              height={150}
-            />
+            <p className="text-white text-lg md:text-base">Speakers</p>
           </Link>
-          <Link href={"/teams"} onClick={() => setIsOpen(false)}>
-            <p className="text-white text-lg md:text-base">Teams</p>
+          <Link href={"/gallery"} onClick={() => setIsOpen(false)}>
+            <p className="text-white text-lg md:text-base">Gallery</p>
           </Link>
-          <Link href={"/gallery"}>
+          <Link href={"/teams"}>
             <p
               className="text-white text-lg md:text-base"
               onClick={() => setIsOpen(false)}
             >
-              Gallery
+              Teams
             </p>
           </Link>
         </div>

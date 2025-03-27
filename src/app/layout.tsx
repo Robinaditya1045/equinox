@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Equinox",
-  description: "Equinox",
+  title: "Equinox | Home",
+  description: "Equinox - Home",
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
