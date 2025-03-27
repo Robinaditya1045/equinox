@@ -145,11 +145,11 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName, bg_img }) => {
       </div>
 
       {/* Right side: conditionally show either the list of events OR single event */}
-      <div className="" ref={eventRef}>
+      <div className=" flex justify-center" ref={eventRef}>
         {selectedEvent ? (
           <SingleEvent event={selectedEvent} onBack={() => setSelectedEvent(null)} />
         ) : (
-          <div className="flex flex-col space-y-6">
+          <div className="flex flex-col justify-center space-y-6">
             {events.map((item, index) => {
               const { start, end } = parseEventDateTime(item.start_date, item.start_time);
               const now = new Date();

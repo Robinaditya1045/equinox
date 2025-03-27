@@ -65,7 +65,7 @@ export default function EventsHomePage() {
           ))}
         </div>
         {selectedWing && (
-          <div ref={eventDetailsRef} className="w-full min-h-screen max-w-6xl mt-12 p-8">
+          <div ref={eventDetailsRef} className="w-full flex flex-row justify-center min-h-screen max-w-6xl mt-12 p-8">
             <EventsDetails eventName={selectedWing} bg_img={backgroundImage || ""} />
           </div>
         )}
