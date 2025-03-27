@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const HomePage = () => {
   return (
     <ParallaxProvider>
-      <div className="w-full flex flex-col items-center relative justify-center 2xl:mx-auto">
+      <div className="w-full flex flex-col overflow-hidden items-center relative justify-center 2xl:mx-auto">
         <Parallax speed={-50} className="w-full min-h-screen ">
           <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center ">
             <div className="absolute inset-0 z-0">
