@@ -1,50 +1,6 @@
 import React from "react";
-// import GalleryGrid from "@/components/Gallery/GalleryGrid";
 import GalleryGrid from "@/components/Gallery/GalleryGrid";
-import { ImageType } from "@/types/index";
-
-const imageData: ImageType[] = [
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-  { src: "/images/dune.png", alt: "Image 1" },
-
-  // Add more images as needed
-];
-
-// Add id to each image to match the required Image interface
-const images = imageData.map((img, index) => ({
-  ...img,
-  id: index + 1,
-}));
+import images from "@/data/gallery.json"
 
 const Gallery = () => {
   return (
