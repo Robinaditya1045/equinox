@@ -12,6 +12,8 @@ const GalleryImage: React.FC<GalleryImageProps> = ({ src, alt }) => {
             <Image
                 src={src}
                 alt={alt}
+                width={350}
+                height={350}
                 className="w-full h-auto transition-transform duration-300 transform hover:scale-105 hover:grayscale-0 grayscale"
             />
         </div>
