@@ -35,7 +35,7 @@ const HomePage = () => {
 
             <section className='w-full'>
                 <Image
-                    src="/images/sand.png"
+                    src="/images/rocksandsand.png"
                     alt="Time Wheel"
                     priority
                     width={500}
@@ -43,11 +43,18 @@ const HomePage = () => {
                     className="object-contain opacity-80 w-full h-full"
                 />
             </section >
-
             <section className='w-full'>
-                <div className="w-full min-h-screen flex flex-col gap-20">
-
-                    <div className="flex justify-center items-center flex-col h-full">
+                <div className="w-full relative min-h-screen flex flex-col justify-center items-center">
+                    <div className="absolute inset-0 z-0">
+                        <Image
+                            src="/images/time_bg.png"
+                            alt="Hero Background"
+                            fill
+                            className="object-cover -translate-y-[50px]"
+                            priority
+                        />
+                    </div>
+                    <div className="absolute inset-0 z-10 flex justify-center items-center flex-col">
                         <div className="text-7xl sm:text-8xl md:text-[12rem] lg:text-[10rem] my-4 select-none mx-8 drop-shadow-3xl text-center bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.3)] bg-clip-text text-transparent font-atelier">
                             Timeless
                             <br />
@@ -57,6 +64,7 @@ const HomePage = () => {
                             A Journey Through Illusion
                         </div>
                     </div>
+                    <div className='w-full min-h-screen'></div>
                 </div>
             </section>
         </div>
