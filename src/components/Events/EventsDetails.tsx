@@ -101,7 +101,7 @@ const parseEventDateTime = (
   }
 };
 
-const EventDetails: React.FC<EventDetailsProps> = ({ eventName, bg_img }) => {
+const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
   const categoryData: CategoryData | undefined = (eventsData as EventsData)[
     eventName.toLowerCase()
   ];
