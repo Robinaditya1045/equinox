@@ -17,7 +17,7 @@ const events: Event[] = [
   { name: "Web", bg: "bg-[url('/events/web.png')]" },
   { name: "App", bg: "bg-[url('/events/app.png')]" },
   { name: "Web3", bg: "bg-[url('/events/web3.png')]" },
-  { name: "Design", bg: "bg-[url('/events/design.png')]" },
+{ name: "Design", bg: "bg-[url('/events/design.png')]" },
 ];
 
 export default function EventsHomePage() {

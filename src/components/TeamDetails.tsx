@@ -1,7 +1,7 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import TeamDetailBtn from "@/components/TeamDetailBtn";
-import People from "./People";
+import React, { useState } from "react";
+// import TeamDetailBtn from "@/components/TeamDetailBtn";
+// import People from "./People";
 import CorePeople from "./Coreteams";
 
 // Dummy data for different teams

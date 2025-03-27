@@ -115,7 +115,7 @@ const HomePage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="font-atelier text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center mb-10"
+              className="font-atelier text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center mb-16"
             >
               Our Sponsors
             </motion.h2>
