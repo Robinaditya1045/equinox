@@ -5,6 +5,7 @@ import homePage from "@/constants/home_page";
 import { sponsors } from "@/constants/sponsors";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import { motion } from "framer-motion";
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
   return (
@@ -290,6 +291,7 @@ const HomePage = () => {
             </div>
           </motion.div>
         </section>
+        <Footer />
       </div>
     </ParallaxProvider>
   );
