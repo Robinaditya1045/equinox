@@ -38,12 +38,12 @@ const Navbar = () => {
         }
       >
         {" "}
-        <div className="flex justify-between items-center w-full md:hidden">
+        <div className="flex absolute justify-between items-center w-full md:hidden">
           <button
             className="text-white text-3xl cursor-pointer"
             onClick={() => setIsOpen(!isOpen)}
           >
-            ☰
+            {isOpen ? "✖" : "☰"}
           </button>
         </div>
         <div
