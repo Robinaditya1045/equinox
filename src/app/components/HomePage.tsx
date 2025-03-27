@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import homePage from '../constants/home_page'
 
 const HomePage = () => {
     return (
@@ -10,7 +11,7 @@ const HomePage = () => {
                         src="/images/hero_bg.jpg"
                         alt="Hero Background"
                         fill
-                        className="object-cover opacity-60"
+                        className="object-cover"
                         priority
                     />
                 </div>
@@ -33,7 +34,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            <section className='w-full'>
+            {/* <section className='w-full'>
                 <Image
                     src="/images/rocksandsand.png"
                     alt="Time Wheel"
@@ -42,20 +43,20 @@ const HomePage = () => {
                     height={500}
                     className="object-contain opacity-80 w-full h-full"
                 />
-            </section >
-            <section className='w-full'>
-                <div className="w-full relative min-h-screen flex flex-col justify-center items-center">
-                    <div className="absolute inset-0 z-0">
-                        <Image
-                            src="/images/time_bg.png"
-                            alt="Hero Background"
-                            fill
-                            className="object-cover -translate-y-[50px]"
-                            priority
-                        />
-                    </div>
-                    <div className="absolute inset-0 z-10 flex justify-center items-center flex-col">
-                        <div className="text-7xl sm:text-8xl md:text-[12rem] lg:text-[10rem] my-4 select-none mx-8 drop-shadow-3xl text-center bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.3)] bg-clip-text text-transparent font-atelier">
+            </section > */}
+
+            <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center">
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/time_bg.png"
+                        alt="Hero Background"
+                        fill
+                        className="object-cover"
+                        priority
+                    />
+                </div>
+                <div className="z-10 text-center px-4">
+                <div className="text-7xl sm:text-8xl md:text-[12rem] lg:text-[10rem] my-4 select-none mx-8 drop-shadow-3xl text-center bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.3)] bg-clip-text text-transparent font-atelier">
                             Timeless
                             <br />
                             Mirage
@@ -63,10 +64,10 @@ const HomePage = () => {
                         <div className="text-xl sm:text-3xl md:text-5xl py-8 select-none mx-8 drop-shadow-3xl text-center text-[#EAE3BA] font-atelier">
                             A Journey Through Illusion
                         </div>
-                    </div>
-                    <div className='w-full min-h-screen'></div>
                 </div>
+                {/* <div className='w-full min-h-screen'></div> */}
             </section>
+
         </div>
     )
 }
