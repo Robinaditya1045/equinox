@@ -1,0 +1,33 @@
+{
+  "Corporate Relations": [],
+  "Public Relations": [],
+  "Media": [
+    { "id": 1, "name": "Bhumika", "image": "/images/DummyImage.jpg" },
+    { "id": 2, "name": "Anurag", "image": "/teamImages/anurag.jpg" },
+    { "id": 3, "name": "Abhay Singh", "image": "/teamImages/abhay.jpg" }
+  ],
+  "Design": [
+    { "id": 4, "name": "Ranjni", "image": "/images/teamImages/ranjni.jpg" },
+    { "id": 5, "name": "Raunak", "image": "/images/teamImages/raunak.jpg" },
+    { "id": 6, "name": "Muskan", "image": "/images/teamImages/muskan.jpg" },
+    { "id": 7, "name": "Anurag", "image": "/images/teamImages/anurag.jpg" },
+    { "id": 8, "name": "Rishabh", "image": "/images/teamImages/rishabh.jpg"}
+  ],
+  "Development": [
+    { "id": 9, "name": "Gaurav", "image": "/images/DummyImage.jpg" },
+    { "id": 10, "name": "Aditya", "image": "/images/DummyImage.jpg" },
+    { "id": 11, "name": "Rishi", "image": "/teamImages/rishi.jpg" },
+    { "id": 12, "name": "Prashant", "image": "/images/DummyImage.jpg" },
+    { "id": 13, "name": "Manish", "image": "/images/DummyImage.jpg" },
+    { "id": 14, "name": "Jovial", "image": "/images/DummyImage.jpg" },
+    { "id": 15, "name": "Hitarth", "image": "/images/teamImages/hitarth.jpg" }
+  ],
+  "HOF 6.1": [
+    { "id": 16, "name": "Digvijay", "image": "/images/teamImages/digvijay.jpg" },
+    { "id": 17, "name": "Vishal", "image": "/images/teamImages/vishal.jpg" },
+    { "id": 18, "name": "Raj Rakshit", "image": "/images/teamImages/raj.jpg" },
+    { "id": 19, "name": "Vedant", "image": "/images/teamImages/vedant.jpg" }
+  ],
+  "Technical": [],
+  "Content": []
+}

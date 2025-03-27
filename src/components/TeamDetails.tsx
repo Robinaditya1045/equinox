@@ -1,55 +1,19 @@
 "use client";
 import React, { useState } from "react";
 import CorePeople from "./Coreteams";
-
-// Dummy data for different teams
-const teamPeopleData = {
-  "Corporate Relations": [
-    { id: 1, name: "John Smith", image: "/images/DummyImage.jpg" },
-    { id: 2, name: "Emily Chen", image: "/images/DummyImage.jpg" },
-    { id: 3, name: "Michael Rodriguez", image: "/images/DummyImage.jpg" },
-  ],
-  "Public Relations": [
-    { id: 4, name: "Sarah Johnson", image: "/images/DummyImage.jpg" },
-    { id: 5, name: "David Kim", image: "/images/DummyImage.jpg" },
-    { id: 6, name: "Olivia Martinez", image: "/images/DummyImage.jpg" },
-  ],
-  Design: [
-    { id: 7, name: "Alex Wong", image: "/images/DummyImage.jpg" },
-    { id: 8, name: "Emma Thompson", image: "/images/DummyImage.jpg" },
-    { id: 9, name: "Lucas Garcia", image: "/images/DummyImage.jpg" },
-  ],
-  Development: [
-    { id: 10, name: "Ryan Lee", image: "/images/DummyImage.jpg" },
-    { id: 11, name: "Sophie Anderson", image: "/images/DummyImage.jpg" },
-    { id: 12, name: "Carlos Ramirez", image: "/images/DummyImage.jpg" },
-  ],
-  HOF: [
-    { id: 13, name: "Elena Petrova", image: "/images/DummyImage.jpg" },
-    { id: 14, name: "Marcus Williams", image: "/images/DummyImage.jpg" },
-    { id: 15, name: "Isabella Rossi", image: "/images/DummyImage.jpg" },
-  ],
-  Technical: [
-    { id: 16, name: "Aiden Park", image: "/images/DummyImage.jpg" },
-    { id: 17, name: "Natalie Brown", image: "/images/DummyImage.jpg" },
-    { id: 18, name: "Felix Schmidt", image: "/images/DummyImage.jpg" },
-  ],
-  Content: [
-    { id: 19, name: "Zoe Taylor", image: "/images/DummyImage.jpg" },
-    { id: 20, name: "Jack Harper", image: "/images/DummyImage.jpg" },
-    { id: 21, name: "Maya Patel", image: "/images/DummyImage.jpg" },
-  ],
-};
+import teamLeads from "../data/teamleads.json";
+import teamMembers from "../data/teammembers.json";
 
 const TeamDetails = () => {
-  const [activeTeam, setActiveTeam] = useState<keyof typeof teamPeopleData>("Corporate Relations");
+    const [activeTeam, setActiveTeam] = useState<keyof typeof teamLeads>("Corporate Relations");
 
   const teams = [
     "Corporate Relations",
     "Public Relations",
+    "Media",
     "Design",
     "Development",
-    "HOF",
+    "HOF 6.1",
     "Technical",
     "Content",
   ];
@@ -69,7 +33,7 @@ const TeamDetails = () => {
         {teams.map((team: string) =>  (
           <button
             key={team}
-            onClick={() => setActiveTeam(team as keyof typeof teamPeopleData)} 
+            onClick={() => setActiveTeam(team as keyof typeof teamLeads)} 
             className={`
             px-6 py-3 
             text-lg 
@@ -96,8 +60,8 @@ const TeamDetails = () => {
           </button>
         ))}
       </div>
-      <CorePeople people={teamPeopleData[activeTeam]} title="Team Leads"/>
-      <CorePeople people={teamPeopleData[activeTeam]} title="Members"/>
+      <CorePeople people={teamLeads[activeTeam]} title="Team Leads"/>
+      <CorePeople people={teamMembers[activeTeam]} title="Members"/>
 
     </>
   );

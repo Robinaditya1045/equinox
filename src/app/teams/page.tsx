@@ -6,35 +6,43 @@ import TeamDetails from "@/components/TeamDetails";
 const coordinators = [
     {
         id: 1,
-        name: "John Doe",
+        name: "Yash Agarwal",
         image: "/images/DummyImage.jpg",
     },
     {
         id: 2,
-        name: "Jane Smith",
+        name: "Praveen Kumar Jaiswal",
         image: "/images/DummyImage.jpg",
     },
-    // {
-    //     id: 3,
-    //     name: "Alex Johnson",
-    //     image: "/images/DummyImage.jpg",
-    // },
+    {
+        id: 3,
+        name: "Pavana Saketha",
+        image: "/images/DummyImage.jpg",
+    },
 ];
 
 const axiosCoordinators = [
     {
         id: 1,
-        name: "John Doe",
+        name: "Shubham Roy",
         image: "/images/DummyImage.jpg",
     },
     {
         id: 2,
-        name: "Jane Smith",
+        name: "Dhruv Chouhan",
+        image: "/images/DummyImage.jpg",
+    },
+];
+
+const Convenors = [
+    {
+        id: 1,
+        name: "Dheeraj",
         image: "/images/DummyImage.jpg",
     },
     {
-        id: 3,
-        name: "Alex Johnson",
+        id: 2,
+        name: "Samarth",
         image: "/images/DummyImage.jpg",
     },
 ];
@@ -56,6 +64,7 @@ const TeamsPage = () => {
             </div>
             <People people={coordinators} title="Coordinators"/>
             <People people={axiosCoordinators} title="Axios Coordinators" />
+            <People people={Convenors} title="Convenors" />
             <div className="absolute inset-0 z-0">
                 <Image
                     src="/images/compass.png"
