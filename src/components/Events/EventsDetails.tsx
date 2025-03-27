@@ -137,7 +137,7 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName, bg_img }) => {
           className={`text-6xl md:mt-8 mb-10 ${bg_img} bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
         >
           {titleLines.map((line, idx) => (
-            <div className="px-4" key={idx}>
+            <div key={idx}>
               {line}
             </div>
           ))}
