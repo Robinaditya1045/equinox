@@ -55,19 +55,11 @@ export default function EventsHomePage() {
 
             <div
               key={index}
-<<<<<<< Updated upstream
               className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg hover:opacity-80  cursor-pointer`}
-=======
-              className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg cursor-pointer hover:ease-in-out`}
->>>>>>> Stashed changes
               onClick={() => handleEventClick(event.name, event.bg)}
               style={{ backgroundImage: `url(${event.img})`, backgroundSize: "cover", backgroundPosition: "center"  }}
             >
-<<<<<<< Updated upstream
               <span className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#ffcc00] px-4 py-2 rounded-md md:rotate-270 ">
-=======
-              <span className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#ffcc00] px-4 py-2 bg-blend-m rounded-md md:rotate-270 z-100">
->>>>>>> Stashed changes
                 {event.name}
               </span>
             </div>
