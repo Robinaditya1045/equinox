@@ -1,10 +1,10 @@
-'use client';
+"use client";
 import Image from "next/image";
 import React from "react";
 import homePage from "@/constants/home_page";
 import { sponsors } from "@/constants/sponsors";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const HomePage = () => {
   return (
@@ -40,7 +40,10 @@ const HomePage = () => {
             </div>
           </section>
         </Parallax>
-        <Parallax speed={10} className="w-full relative z-10 h-[50vh] -mt-[25vh]">
+        <Parallax
+          speed={10}
+          className="w-full relative z-10 h-[50vh] -mt-[25vh]"
+        >
           <section className=" z-100 absolute h-screen  w-full -mt-[20vh]">
             <div className="absolute w-screen h-full ">
               <Image
@@ -86,12 +89,29 @@ const HomePage = () => {
               priority
             />
           </div>
-          <div className="w-full p-10 text-center font-young-serif md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%]">
-            <p className="md:text-lg lg:text-xl xl:text-2xl">{homePage.para1}</p>
-          </div>
-          <div className="w-full p-10 text-center font-young-serif md:w-[85%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%]">
-            <p className="md:text-lg lg:text-xl xl:text-2xl">{homePage.para2}</p>
-          </div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true, margin: "-100px" }}
+            className="w-full p-10 text-center font-young-serif md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%]"
+          >
+            <p className="md:text-lg lg:text-xl xl:text-2xl">
+              {homePage.para1}
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true, margin: "-100px" }}
+            className="w-full p-10 text-center font-young-serif md:w-[85%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%]"
+          >
+            <p className="md:text-lg lg:text-xl xl:text-2xl">
+              {homePage.para2}
+            </p>
+          </motion.div>
         </section>
         <section className="min-h-[120vh] w-full relative bg-[#0C0202] flex flex-col items-center justify-start">
           <div className="absolute inset-0 z-0">
@@ -103,14 +123,14 @@ const HomePage = () => {
               priority
             />
           </div>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
             className="w-full flex flex-col items-center justify-center py-10 space-y-8"
           >
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
@@ -122,129 +142,150 @@ const HomePage = () => {
 
             <div className="w-full flex flex-col items-center space-y-10">
               {/* Premium Sponsors */}
-              <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true, margin: "-50px" }}
-          className="w-full max-w-6xl"
-              >
-          <motion.p 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#EAE3BA]"
-          >
-            Premium Sponsors
-          </motion.p>
-          <div className={`grid gap-6 mx-auto ${sponsors[0].images.length <= 2 ? "grid-cols-2 max-w-md" :
-              "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-            } place-items-center justify-center`}>
-            {sponsors[0].images.map((image, index) => (
-              <motion.div 
-                key={index} 
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 * index }}
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true, margin: "-50px" }}
-                whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-                className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                className="w-full max-w-6xl"
               >
-                <Image
-            src={image}
-            alt={`${sponsors[0].title} sponsor ${index + 1}`}
-            width={144}
-            height={144}
-            className="object-contain"
-                />
-              </motion.div>
-            ))}
-          </div>
+                <motion.p
+                  initial={{ opacity: 0, y: 15 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
+                  className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#EAE3BA]"
+                >
+                  Premium Sponsors
+                </motion.p>
+                <div
+                  className={`grid gap-6 mx-auto ${
+                    sponsors[0].images.length <= 2
+                      ? "grid-cols-2 max-w-md"
+                      : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+                  } place-items-center justify-center`}
+                >
+                  {sponsors[0].images.map((image, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 0.1 * index }}
+                      viewport={{ once: true, margin: "-50px" }}
+                      whileHover={{
+                        scale: 1.05,
+                        transition: { duration: 0.2 },
+                      }}
+                      className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                    >
+                      <Image
+                        src={image}
+                        alt={`${sponsors[0].title} sponsor ${index + 1}`}
+                        width={144}
+                        height={144}
+                        className="object-contain"
+                      />
+                    </motion.div>
+                  ))}
+                </div>
               </motion.div>
 
               {/* Gold Sponsors */}
-              <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          viewport={{ once: true, margin: "-50px" }}
-          className="w-full max-w-6xl"
-              >
-          <motion.p 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#D4AF37]"
-          >
-            Gold Sponsors
-          </motion.p>
-          <div className={`grid gap-6 mx-auto ${sponsors[1].images.length <= 2 ? "grid-cols-2 max-w-md" :
-              "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-            } place-items-center justify-center`}>
-            {sponsors[1].images.map((image, index) => (
-              <motion.div 
-                key={index} 
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 * index }}
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true, margin: "-50px" }}
-                whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-                className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                className="w-full max-w-6xl"
               >
-                <Image
-            src={image}
-            alt={`${sponsors[1].title} sponsor ${index + 1}`}
-            width={144}
-            height={144}
-            className="object-contain"
-                />
-              </motion.div>
-            ))}
-          </div>
+                <motion.p
+                  initial={{ opacity: 0, y: 15 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
+                  className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#D4AF37]"
+                >
+                  Gold Sponsors
+                </motion.p>
+                <div
+                  className={`grid gap-6 mx-auto ${
+                    sponsors[1].images.length <= 2
+                      ? "grid-cols-2 max-w-md"
+                      : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+                  } place-items-center justify-center`}
+                >
+                  {sponsors[1].images.map((image, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 0.1 * index }}
+                      viewport={{ once: true, margin: "-50px" }}
+                      whileHover={{
+                        scale: 1.05,
+                        transition: { duration: 0.2 },
+                      }}
+                      className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                    >
+                      <Image
+                        src={image}
+                        alt={`${sponsors[1].title} sponsor ${index + 1}`}
+                        width={144}
+                        height={144}
+                        className="object-contain"
+                      />
+                    </motion.div>
+                  ))}
+                </div>
               </motion.div>
 
               {/* Silver Sponsors */}
-              <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true, margin: "-50px" }}
-          className="w-full max-w-6xl"
-              >
-          <motion.p 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#C0C0C0]"
-          >
-            Silver Sponsors
-          </motion.p>
-          <div className={`grid gap-6 mx-auto ${sponsors[2].images.length <= 2 ? "grid-cols-2 max-w-md" :
-              "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-            } place-items-center justify-center`}>
-            {sponsors[2].images.map((image, index) => (
-              <motion.div 
-                key={index} 
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 * index }}
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true, margin: "-50px" }}
-                whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-                className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                className="w-full max-w-6xl"
               >
-                <Image
-            src={image}
-            alt={`${sponsors[2].title} sponsor ${index + 1}`}
-            width={144}
-            height={144}
-            className="object-contain"
-                />
-              </motion.div>
-            ))}
-          </div>
+                <motion.p
+                  initial={{ opacity: 0, y: 15 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
+                  className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#C0C0C0]"
+                >
+                  Silver Sponsors
+                </motion.p>
+                <div
+                  className={`grid gap-6 mx-auto ${
+                    sponsors[2].images.length <= 2
+                      ? "grid-cols-2 max-w-md"
+                      : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+                  } place-items-center justify-center`}
+                >
+                  {sponsors[2].images.map((image, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 0.1 * index }}
+                      viewport={{ once: true, margin: "-50px" }}
+                      whileHover={{
+                        scale: 1.05,
+                        transition: { duration: 0.2 },
+                      }}
+                      className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                    >
+                      <Image
+                        src={image}
+                        alt={`${sponsors[2].title} sponsor ${index + 1}`}
+                        width={144}
+                        height={144}
+                        className="object-contain"
+                      />
+                    </motion.div>
+                  ))}
+                </div>
               </motion.div>
             </div>
           </motion.div>

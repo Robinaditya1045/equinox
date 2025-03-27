@@ -38,7 +38,7 @@ export default function EventsHomePage() {
   };
   return (
     <div className="min-h-screen bg-[#120303] flex flex-col items-center justify-center px-4 py-12 font-atelier">
-      <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFFBF0] to-[#EAE3BA] mb-12 mt-6">
+      <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFFBF0] to-[#EAE3BA] mb-12 ">
         Events
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-8 lg:grid-cols-8 gap-6 md:gap-4 w-full max-w-6xl px-4">
