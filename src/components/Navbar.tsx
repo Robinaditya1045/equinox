@@ -41,10 +41,12 @@ const Navbar = () => {
             <p className="text-white text-lg md:text-base">Events</p>
           </Link>
           <Link href={"/"} className="relative  w-28 md:w-32 h-16">
-            <img
+            <Image
               src="/images/logo.png"
               alt="logo"
               className="absolute -top-3"
+              width={150}
+              height={150}
             />
           </Link>
           <Link href={"/teams"}>
