@@ -1,0 +1,550 @@
+{
+    "foss": {
+        "title": "Free and Open Source Software",
+        "events": [
+            {
+                "name": "FOSS Weekend",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A three-day online coding event focused on showcasing Git skills, solving technical challenges, and winning exciting prizes.",
+                "mode": "Online",
+                "duration": "3 days",
+                "rules": [
+                    "Adhere to GitHub's guidelines",
+                    "Follow project-specific contribution guidelines",
+                    "No AI-generated code allowed",
+                    "Issues tagged by difficulty"
+                ],
+                "poc": [
+                    {
+                        "name": "FOSS Wing Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Scratch-a-thon",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A 2-hour in-person coding challenge on Scratch, where participants build creative projects like games, interactive stories, or animations.",
+                "mode": "Offline",
+                "duration": "2 hours",
+                "rules": [
+                    "Must attend offline event in person",
+                    "Bring your own laptop",
+                    "All work must be original",
+                    "No explicit content allowed"
+                ],
+                "poc": [
+                    {
+                        "name": "Scratch Event Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "RiceFest",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A competition to customize operating system user interfaces through 'ricing' — the art of aesthetic customization.",
+                "mode": "Online",
+                "duration": "5 days",
+                "rules": [
+                    "Customize any OS: Windows, Linux, Android, or Mac",
+                    "Legal and appropriate visual elements",
+                    "Provide configuration files",
+                    "Functional modifications preferred",
+                    "No plagiarism"
+                ],
+                "poc": [
+                    {
+                        "name": "RiceFest Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Code Smackdown",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A fast-paced event challenging teams to optimize messy code in React and various programming languages.",
+                "mode": "Online/Offline",
+                "duration": "3 days",
+                "rules": [
+                    "Team size: 1-3 members",
+                    "No AI-generated code",
+                    "Provide code explanation",
+                    "Optimize performance",
+                    "Maintain original function behavior"
+                ],
+                "poc": [
+                    {
+                        "name": "Code Smackdown Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Scavenger Hunt",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A multi-stage puzzle event combining Git, debugging, Linux commands, and open-source contribution tasks.",
+                "mode": "Online/Offline",
+                "duration": "2 days",
+                "rules": [
+                    "Complete challenges in sequence",
+                    "Use only allowed tools",
+                    "No external help",
+                    "Complete within time frame"
+                ],
+                "poc": [
+                    {
+                        "name": "Scavenger Hunt Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    "cp": {
+        "title": "Competitive Programming",
+        "events": [
+            {
+                "name": "Code Arena",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "An offline 1v1 coding tournament featuring a double elimination format with two tracks: Freshers and Universal.",
+                "mode": "Offline",
+                "duration": "Full Day",
+                "rules": [
+                    "Double elimination tournament",
+                    "Each match is a single problem",
+                    "First to solve or most progress wins",
+                    "Bring your own laptop",
+                    "No unauthorized assistance"
+                ],
+                "poc": [
+                    {
+                        "name": "Code Arena Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Freshers Cup",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "An ICPC-inspired contest for freshers with online prelims and offline finals.",
+                "mode": "Online Prelims, Offline Finals",
+                "duration": "Prelims: 3 Hours, Finals: 5 Hours",
+                "rules": [
+                    "Teams of exactly 3 people",
+                    "Only freshers allowed",
+                    "No generative AI",
+                    "Limited communication"
+                ],
+                "poc": [
+                    {
+                        "name": "Freshers Cup Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Speedforces",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A high-speed competitive programming contest with no penalties for wrong submissions.",
+                "mode": "Offline",
+                "duration": "2 hours",
+                "rules": [
+                    "No AI tools or Google",
+                    "No penalty for wrong submissions",
+                    "Equal weightage for all problems",
+                    "Number of solved problems matters",
+                    "Two elimination rounds"
+                ],
+                "poc": [
+                    {
+                        "name": "Speedforces Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "IIITL Cup",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "An institute-wide programming competition testing individual algorithmic skills.",
+                "mode": "Online Prelims, Offline Finals",
+                "duration": "Prelims: 2 Hours, Finals: 3 Hours",
+                "rules": [
+                    "Individual contest",
+                    "No teams allowed",
+                    "No generative AI",
+                    "No external communication"
+                ],
+                "poc": [
+                    {
+                        "name": "IIITL Cup Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Global Contest",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "An online competitive programming contest open to everyone, mirroring a Codeforces round.",
+                "mode": "Online",
+                "duration": "2 hours 15 minutes",
+                "rules": [
+                    "Individual participation",
+                    "7-8 algorithmic challenges",
+                    "No AI tools or Google",
+                    "10-minute penalty per wrong submission",
+                    "No code sharing",
+                    "No hacking phase"
+                ],
+                "poc": [
+                    {
+                        "name": "Global Contest Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    "infosec": {
+        "title": "Information Security",
+        "events": [
+            {
+                "name": "Bug Smasher",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A novice bug bounty event with 4-5 websites containing intentional and bonus vulnerabilities.",
+                "mode": "Individual",
+                "duration": "3 Days",
+                "rules": [
+                    "Individual participation",
+                    "Each website has 4-5 intentional bugs",
+                    "Bonus points for unintentional bugs",
+                    "Hints available with point penalty"
+                ],
+                "poc": [
+                    {
+                        "name": "Bug Smasher Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Incognito CTF 6.0",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A 48-hour global cybersecurity challenge testing skills in web exploitation, cryptography, and diverse cybersecurity domains.",
+                "mode": "Team-based (1-4 members)",
+                "duration": "48 Hours",
+                "rules": [
+                    "Team size: 1-4 members",
+                    "Multiple cybersecurity domains",
+                    "Dynamic points system",
+                    "No brute forcing",
+                    "No flag sharing between teams"
+                ],
+                "poc": [
+                    {
+                        "name": "CTF Event Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    "ml": {
+        "title": "Machine Learning",
+        "events": [
+            {
+                "name": "Kaggle Cup",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A week-long deep learning contest where participants build CNN models from scratch, competing for top leaderboard accuracy.",
+                "mode": "Online",
+                "duration": "1 Week",
+                "rules": [
+                    "Participants must build their own CNN models from scratch",
+                    "No pretrained models or transfer learning",
+                    "Up to 10 entries per day",
+                    "Submit notebook on Kaggle",
+                    "Generate CSV predictions",
+                    "No external assistance"
+                ],
+                "poc": [
+                    {
+                        "name": "Kaggle Cup Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "LLM Persona Roast Championship",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A global online event where participants train LLMs to generate humorous roasts in specific personas.",
+                "mode": "Online",
+                "duration": "2 Days",
+                "rules": [
+                    "Select a persona and roast target",
+                    "Submit JSON with top 10 roasts",
+                    "Provide Kaggle notebook with implementation details",
+                    "Use LangChain with supported LLMs",
+                    "No external assistance"
+                ],
+                "poc": [
+                    {
+                        "name": "LLM Roast Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Prompt Breach",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "An offline tournament where teams defend their unique code words using custom-crafted system prompts.",
+                "mode": "Offline",
+                "duration": "4-5 hours",
+                "rules": [
+                    "Freshers only",
+                    "1v1 knockout tournament",
+                    "Defend and breach code words",
+                    "Increasing model complexity in each round"
+                ],
+                "poc": [
+                    {
+                        "name": "Prompt Breach Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    "web3": {
+        "title": "Web3",
+        "events": [
+            {
+                "name": "Hackofiesta 6.1",
+                "start_time": "9:00 AM",
+                "start_date": "25-27 March",
+                "description": "A 24-hour Web3 hackathon with workshops, talks, and prizes for innovative solutions.",
+                "mode": "Offline",
+                "duration": "24 Hours",
+                "rules": [
+                    "Team-based competition",
+                    "4-5 members per team",
+                    "Focus on decentralized technologies",
+                    "Create innovative Web3 solutions"
+                ],
+                "poc": [
+                    {
+                        "name": "Hackofiesta Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    "design": {
+        "title": "Design",
+        "events": [
+            {
+                "name": "Advertisement Design Challenge",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A 3-day Canva-based contest for creating innovative advertisements.",
+                "mode": "Online",
+                "duration": "3 Days",
+                "rules": [
+                    "Use Canva for design",
+                    "Focus on creative visuals",
+                    "Clear messaging",
+                    "Impactful branding"
+                ],
+                "poc": [
+                    {
+                        "name": "Ad Design Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Figma Animation Challenge",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A 5-day contest where individuals design and animate landing pages using Figma.",
+                "mode": "Online",
+                "duration": "5 Days",
+                "rules": [
+                    "Design landing pages",
+                    "Create smooth transitions",
+                    "Engage with interactions",
+                    "Use Figma exclusively"
+                ],
+                "poc": [
+                    {
+                        "name": "Figma Challenge Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    "web": {
+        "title": "Web Development",
+        "events": [
+            {
+                "name": "Overdrive",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A week-long challenge to develop feature-rich applications by integrating RESTful APIs and NPM packages.",
+                "mode": "Online",
+                "duration": "1 Week",
+                "rules": [
+                    "Creative API integration",
+                    "Use multiple NPM packages",
+                    "Build feature-rich applications"
+                ],
+                "poc": [
+                    {
+                        "name": "Overdrive Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "React Rumble",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A one-day, 1v1 knockout event where participants build React functional components.",
+                "mode": "Online",
+                "duration": "1 Day",
+                "rules": [
+                    "1v1 knockout format",
+                    "Initial GPT assistance",
+                    "Manual completion",
+                    "Build functional React components"
+                ],
+                "poc": [
+                    {
+                        "name": "React Rumble Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Super Deployment",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A challenge to debug and deploy a full-stack project within 1-2 days.",
+                "mode": "Online",
+                "duration": "1-2 Days",
+                "rules": [
+                    "Debug full-stack project",
+                    "Efficient frontend deployment",
+                    "Efficient backend deployment",
+                    "Time-bound challenge"
+                ],
+                "poc": [
+                    {
+                        "name": "Super Deployment Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    "app": {
+        "title": "App Development",
+        "events": [
+            {
+                "name": "CodeUI.apk",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A 10-hour mobile UI design sprint using Flutter, Kotlin, React Native, or Swift.",
+                "mode": "Online",
+                "duration": "10 Hours",
+                "rules": [
+                    "Create visually appealing app interfaces",
+                    "Use Flutter, Kotlin, React Native, or Swift",
+                    "Focus on UI/UX design"
+                ],
+                "poc": [
+                    {
+                        "name": "CodeUI Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Appophilia",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A week-long app development challenge requiring participants to build functional applications using provided APIs.",
+                "mode": "Online",
+                "duration": "1 Week",
+                "rules": [
+                    "Build functional applications",
+                    "Use provided APIs",
+                    "Create original code",
+                    "Comprehensive app development"
+                ],
+                "poc": [
+                    {
+                        "name": "Appophilia Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Adalo No-Code UI Sprint",
+                "start_time": "10:00 AM",
+                "start_date": "To be announced",
+                "description": "A 3-day competition where individuals build fully functional mobile and web apps using Adalo without writing code.",
+                "mode": "Online",
+                "duration": "3 Days",
+                "rules": [
+                    "Build mobile and web apps",
+                    "Use Adalo platform",
+                    "No code writing",
+                    "Fully functional applications"
+                ],
+                "poc": [
+                    {
+                        "name": "Adalo Sprint Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Code Collide",
+                "start_time": "9:00 AM",
+                "start_date": "To be announced",
+                "description": "A 5-day online event where freshers merge functionalities of two existing apps into a creative prototype.",
+                "mode": "Online",
+                "duration": "5 Days",
+                "rules": [
+                    "Freshers only",
+                    "Merge functionalities of two apps",
+                    "Create innovative prototype",
+                    "Functional application required"
+                ],
+                "poc": [
+                    {
+                        "name": "Code Collide Coordinator",
+                        "phone": "+91-XXXXX-XXXXX"
+                    }
+                ]
+            }
+        ]
+    }
+}

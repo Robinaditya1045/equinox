@@ -44,7 +44,7 @@ const HomePage = () => {
           <section className=" z-100 absolute h-screen  w-full -mt-[20vh]">
             <div className="absolute w-screen h-full ">
               <Image
-                src="/images/rocksandsandcr.png"
+                src="/images/rocksandsandhigh.png"
                 alt="Time Wheel"
                 priority
                 layout="fill"
@@ -58,7 +58,7 @@ const HomePage = () => {
         <section className="z-1 min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-center -mt-[20vh]">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/time_bg.png"
+              src="/images/time_bg_crop.png"
               alt="Hero Background"
               fill
               className="object-cover"
@@ -76,7 +76,7 @@ const HomePage = () => {
             </div>
           </div>
         </section>
-        <section className="min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-around">
+        <section className="min-h-[120vh] w-full relative bg-[#0C0202] flex flex-col items-center justify-around">
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/compass.png"
@@ -93,7 +93,7 @@ const HomePage = () => {
             <p className="md:text-lg lg:text-xl xl:text-2xl">{homePage.para2}</p>
           </div>
         </section>
-        <section className="min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-start overflow-hidden">
+        <section className="min-h-[120vh] w-full relative bg-[#0C0202] flex flex-col items-center justify-start">
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/compass.png"
