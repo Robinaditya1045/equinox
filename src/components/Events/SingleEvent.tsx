@@ -104,7 +104,22 @@ const SingleEvent: React.FC<SingleEventProps> = ({ event, onBack }) => {
             </p>
           </div>
           <div className="mr-4">
-            <Image src={lampSrc} alt="Lamp Status" width={20} height={20} />
+            <Image
+              src={lampSrc}
+              alt="Lamp Status"
+              width={20}
+              height={20}
+              className={
+                isLive
+                  ? "animate-pulse filter drop-shadow(0 0 8px rgba(0, 255, 0, 0.8))"
+                  : ""
+              }
+              style={
+                isLive
+                  ? { filter: "drop-shadow(0 0 8px rgba(0, 255, 0, 0.8))" }
+                  : {}
+              }
+            />
           </div>
         </div>
 

@@ -137,9 +137,7 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
           className={`text-6xl md:mt-8 mb-10 bg-[#EAE3BA] bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
         >
           {titleLines.map((line, idx) => (
-            <div key={idx}>
-              {line}
-            </div>
+            <div key={idx}>{line}</div>
           ))}
         </div>
       </div>
@@ -147,14 +145,22 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
       {/* Right side: conditionally show either the list of events OR single event */}
       <div className=" flex flex-row justify-center" ref={eventRef}>
         {selectedEvent ? (
-          <SingleEvent event={selectedEvent} onBack={() => setSelectedEvent(null)} />
+          <SingleEvent
+            event={selectedEvent}
+            onBack={() => setSelectedEvent(null)}
+          />
         ) : (
           <div className="flex flex-col justify-center space-y-6">
             {events.map((item, index) => {
-              const { start, end } = parseEventDateTime(item.start_date, item.start_time);
+              const { start, end } = parseEventDateTime(
+                item.start_date,
+                item.start_time
+              );
               const now = new Date();
               const isLive = now >= start && now <= end;
-              const lampSrc = isLive ? "/events/lamp-glow.png" : "/events/lamp-red.png";
+              const lampSrc = isLive
+                ? "/events/lamp-glow.png"
+                : "/events/lamp-red.png";
 
               return (
                 <div
@@ -163,9 +169,18 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
                   onClick={() => setSelectedEvent(item)}
                 >
                   <div className="flex flex-row justify-between">
-                    <h2 className="text-2xl font-semibold mb-2 text-[#EAE3BA]">{item.name}</h2>
+                    <h2 className="text-2xl font-semibold mb-2 text-[#EAE3BA]">
+                      {item.name}
+                    </h2>
                     <div className="mr-2">
-                      <Image src={lampSrc} alt="Lamp Status" width={20} height={20} />
+                      <Image
+                      src={lampSrc}
+                      alt="Lamp Status"
+                      width={20}
+                      height={20}
+                      className={isLive ? "animate-pulse filter drop-shadow(0 0 8px rgba(0, 255, 0, 0.8))" : ""}
+                      style={isLive ? { filter: "drop-shadow(0 0 8px rgba(0, 255, 0, 0.8))" } : {}}
+                      />
                     </div>
                   </div>
                   <p className="text-sm text-[#977864] mb-4">
