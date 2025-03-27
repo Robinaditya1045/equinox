@@ -46,8 +46,12 @@ export default function EventsHomePage() {
         ))}
       </Head>
 
-      <div className="min-h-screen bg-[#120303] flex flex-col items-center justify-center px-4 py-12 font-atelier">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFFBF0] to-[#EAE3BA] mb-12 mt-6">
+      <div className="w-full min-h-screen bg-[#120303] flex flex-col items-center max-sm:pt-20 pt-32 relative">
+        <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl
+                mb-8 sm:mb-12 font-atelier
+                bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.3)]
+                bg-clip-text text-transparent
+                drop-shadow-lg select-none ">
           Events
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-8 lg:grid-cols-8 gap-6 md:gap-4 w-full max-w-6xl px-4">

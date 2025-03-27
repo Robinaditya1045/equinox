@@ -35,7 +35,7 @@ const People: React.FC<PeopleProps> = ({ people, title }) => {
           <div
             key={person.id}
             className="flex flex-col items-center justify-center
-                            w-full sm:w-20wh md:w-20wh max-w-[300px]
+                            w-full sm:w-20wh sm:w-20wh md:w-20wh max-w-[300px]
                             transition-transform duration-300 hover:scale-105"
           >
             <div

@@ -7,7 +7,7 @@ interface GalleryImageProps {
 
 const GalleryImage: React.FC<GalleryImageProps> = ({ src, alt }) => {
     return (
-        <div className="overflow-hidden rounded-lg shadow-lg">
+        <div className="overflow-hidden sm:w-20wh md:w-20wh max-w-[300px] rounded-lg shadow-lg">
             <img
                 src={src}
                 alt={alt}
