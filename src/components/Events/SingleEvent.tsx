@@ -142,14 +142,14 @@ const SingleEvent: React.FC<SingleEventProps> = ({ event, onBack }) => {
         {/* Registration / QR */}
         <div className="flex flex-row justify-between">
           <div>
-            <p className="text-sm sm:text-base text-[#977864] font-semibold hover:uner">
+            <p className="text-sm sm:text-base text-[#977864] font-semibold underline">
               <Link href="https://example.com/register" target="_blank">
                 Register Here
               </Link>
             </p>
             <p className="text-sm sm:text-base text-[#977864]">Or Scan QR</p>
           </div>
-          <Image src="/events/qr.png" alt="QR Code" width={100} height={100} />
+          <Image src="/events/QR.png" alt="QR Code" width={100} height={100} />
         </div>
 
         {/* Back button */}

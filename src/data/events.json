@@ -5,7 +5,7 @@
             {
                 "name": "FOSS Weekend",
                 "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_date": "27-28 March",
                 "description": "A three-day online coding event focused on showcasing Git skills, solving technical challenges, and winning exciting prizes.",
                 "mode": "Online",
                 "duration": "3 days",
@@ -20,12 +20,13 @@
                         "name": "FOSS Wing Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Scratch-a-thon",
                 "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_date": "27-28 March",
                 "description": "A 2-hour in-person coding challenge on Scratch, where participants build creative projects like games, interactive stories, or animations.",
                 "mode": "Offline",
                 "duration": "2 hours",
@@ -40,15 +41,16 @@
                         "name": "Scratch Event Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "RiceFest",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "1-6 April",
                 "description": "A competition to customize operating system user interfaces through 'ricing' — the art of aesthetic customization.",
                 "mode": "Online",
-                "duration": "5 days",
+                "duration": "6 days",
                 "rules": [
                     "Customize any OS: Windows, Linux, Android, or Mac",
                     "Legal and appropriate visual elements",
@@ -61,12 +63,13 @@
                         "name": "RiceFest Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Code Smackdown",
-                "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "9-11 April",
                 "description": "A fast-paced event challenging teams to optimize messy code in React and various programming languages.",
                 "mode": "Online/Offline",
                 "duration": "3 days",
@@ -82,7 +85,8 @@
                         "name": "Code Smackdown Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Scavenger Hunt",
@@ -102,7 +106,8 @@
                         "name": "Scavenger Hunt Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     },
@@ -112,7 +117,7 @@
             {
                 "name": "Code Arena",
                 "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_date": "4 April",
                 "description": "An offline 1v1 coding tournament featuring a double elimination format with two tracks: Freshers and Universal.",
                 "mode": "Offline",
                 "duration": "Full Day",
@@ -128,12 +133,13 @@
                         "name": "Code Arena Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Freshers Cup",
                 "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_date": "10 April",
                 "description": "An ICPC-inspired contest for freshers with online prelims and offline finals.",
                 "mode": "Online Prelims, Offline Finals",
                 "duration": "Prelims: 3 Hours, Finals: 5 Hours",
@@ -148,12 +154,13 @@
                         "name": "Freshers Cup Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Speedforces",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "7:00 PM",
+                "start_date": "31 March",
                 "description": "A high-speed competitive programming contest with no penalties for wrong submissions.",
                 "mode": "Offline",
                 "duration": "2 hours",
@@ -169,12 +176,13 @@
                         "name": "Speedforces Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "IIITL Cup",
-                "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_time": "10:00 PM",
+                "start_date": "2 April",
                 "description": "An institute-wide programming competition testing individual algorithmic skills.",
                 "mode": "Online Prelims, Offline Finals",
                 "duration": "Prelims: 2 Hours, Finals: 3 Hours",
@@ -189,12 +197,13 @@
                         "name": "IIITL Cup Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Global Contest",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "9:00 PM",
+                "start_date": "8 April",
                 "description": "An online competitive programming contest open to everyone, mirroring a Codeforces round.",
                 "mode": "Online",
                 "duration": "2 hours 15 minutes",
@@ -211,7 +220,8 @@
                         "name": "Global Contest Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     },
@@ -220,8 +230,8 @@
         "events": [
             {
                 "name": "Bug Smasher",
-                "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "8-10 April",
                 "description": "A novice bug bounty event with 4-5 websites containing intentional and bonus vulnerabilities.",
                 "mode": "Individual",
                 "duration": "3 Days",
@@ -236,12 +246,13 @@
                         "name": "Bug Smasher Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Incognito CTF 6.0",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "11-12 April",
                 "description": "A 48-hour global cybersecurity challenge testing skills in web exploitation, cryptography, and diverse cybersecurity domains.",
                 "mode": "Team-based (1-4 members)",
                 "duration": "48 Hours",
@@ -257,7 +268,8 @@
                         "name": "CTF Event Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     },
@@ -267,7 +279,7 @@
             {
                 "name": "Kaggle Cup",
                 "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_date": "31 March-5 April",
                 "description": "A week-long deep learning contest where participants build CNN models from scratch, competing for top leaderboard accuracy.",
                 "mode": "Online",
                 "duration": "1 Week",
@@ -284,12 +296,13 @@
                         "name": "Kaggle Cup Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "LLM Persona Roast Championship",
-                "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "10-12 April",
                 "description": "A global online event where participants train LLMs to generate humorous roasts in specific personas.",
                 "mode": "Online",
                 "duration": "2 Days",
@@ -305,12 +318,13 @@
                         "name": "LLM Roast Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Prompt Breach",
                 "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_date": "10-12 April",
                 "description": "An offline tournament where teams defend their unique code words using custom-crafted system prompts.",
                 "mode": "Offline",
                 "duration": "4-5 hours",
@@ -325,7 +339,8 @@
                         "name": "Prompt Breach Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     },
@@ -335,7 +350,7 @@
             {
                 "name": "Hackofiesta 6.1",
                 "start_time": "9:00 AM",
-                "start_date": "25-27 March",
+                "start_date": "6-7 April",
                 "description": "A 24-hour Web3 hackathon with workshops, talks, and prizes for innovative solutions.",
                 "mode": "Offline",
                 "duration": "24 Hours",
@@ -350,7 +365,8 @@
                         "name": "Hackofiesta Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     },
@@ -359,8 +375,8 @@
         "events": [
             {
                 "name": "Advertisement Design Challenge",
-                "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "31 March-2 April",
                 "description": "A 3-day Canva-based contest for creating innovative advertisements.",
                 "mode": "Online",
                 "duration": "3 Days",
@@ -375,12 +391,13 @@
                         "name": "Ad Design Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Figma Animation Challenge",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "27-31 March",
                 "description": "A 5-day contest where individuals design and animate landing pages using Figma.",
                 "mode": "Online",
                 "duration": "5 Days",
@@ -395,7 +412,8 @@
                         "name": "Figma Challenge Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     },
@@ -404,8 +422,8 @@
         "events": [
             {
                 "name": "Overdrive",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "31 March-5 April",
                 "description": "A week-long challenge to develop feature-rich applications by integrating RESTful APIs and NPM packages.",
                 "mode": "Online",
                 "duration": "1 Week",
@@ -419,12 +437,13 @@
                         "name": "Overdrive Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "React Rumble",
                 "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_date": "28 March",
                 "description": "A one-day, 1v1 knockout event where participants build React functional components.",
                 "mode": "Online",
                 "duration": "1 Day",
@@ -439,12 +458,13 @@
                         "name": "React Rumble Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Super Deployment",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "7-8 April",
                 "description": "A challenge to debug and deploy a full-stack project within 1-2 days.",
                 "mode": "Online",
                 "duration": "1-2 Days",
@@ -459,7 +479,8 @@
                         "name": "Super Deployment Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     },
@@ -468,8 +489,8 @@
         "events": [
             {
                 "name": "CodeUI.apk",
-                "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_time": "10:00 PM",
+                "start_date": "4-5 April",
                 "description": "A 10-hour mobile UI design sprint using Flutter, Kotlin, React Native, or Swift.",
                 "mode": "Online",
                 "duration": "10 Hours",
@@ -483,12 +504,13 @@
                         "name": "CodeUI Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Appophilia",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "27-31 March",
                 "description": "A week-long app development challenge requiring participants to build functional applications using provided APIs.",
                 "mode": "Online",
                 "duration": "1 Week",
@@ -503,12 +525,13 @@
                         "name": "Appophilia Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Adalo No-Code UI Sprint",
-                "start_time": "10:00 AM",
-                "start_date": "To be announced",
+                "start_time": "12:00 AM",
+                "start_date": "7-9 April",
                 "description": "A 3-day competition where individuals build fully functional mobile and web apps using Adalo without writing code.",
                 "mode": "Online",
                 "duration": "3 Days",
@@ -523,7 +546,8 @@
                         "name": "Adalo Sprint Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             },
             {
                 "name": "Code Collide",
@@ -543,7 +567,8 @@
                         "name": "Code Collide Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
-                ]
+                ],
+                "registration_link": "https://example.com"
             }
         ]
     }
