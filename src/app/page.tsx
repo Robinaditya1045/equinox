@@ -1,11 +1,13 @@
-// import Image from "next/image";
+import React from "react";
 
-import HomePage from "./components/HomePage";
+import HomePage from "./home/page";
 
-export default function Home() {
+const main = () => {
   return (
-    <div>
+    <>
       <HomePage />
-    </div>
+    </>
   );
-}
+};
+
+export default main;
