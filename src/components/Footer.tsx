@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="flex flex-col items-center font-young-serif justify-center w-full bg-black  pb-12">
+    <div className="flex flex-col items-center font-young-serif justify-center w-full bg-[#0c0101]  pb-12">
       <div className="flex flex-col justify-center items-center relative">
         <Image
           src="/images/logo_large.png"
@@ -12,13 +12,13 @@ function Footer() {
           width={250}
           height={250}
         />
-        <div className="absolute bottom-10 text-nowrap">
+        <div className="absolute bottom-10 text-nowrap text-[#c9c2b6]">
           Indian Institute of Information Technology
         </div>
-        <div>Lucknow, Uttar Pradesh</div>
+        <div className="text-[#c9c2b6]">Lucknow, Uttar Pradesh</div>
       </div>
-      <div className="h-[1px] w-11/12 md:w-10/12 bg-yellow-200 mx-24 my-5"></div>
-      <div className="flex flex-col gap-y-4 md:flex-row justify-between w-11/12 md:w-10/12">
+      {/* <div className="h-[1px] w-11/12 md:w-10/12 bg-yellow-200 mx-24 my-5"></div> */}
+      {/* <div className="flex flex-col gap-y-4 md:flex-row justify-between w-11/12 md:w-10/12">
         <div className="flex justify-center items-center gap-x-3">
           <Link
             href={"https://www.instagram.com/equinoxiiitl/?hl=en"}
@@ -60,7 +60,7 @@ function Footer() {
             Cookies Settings
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
