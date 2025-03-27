@@ -46,7 +46,7 @@ export default function EventsHomePage() {
         ))}
       </Head>
 
-      <div className="min-h-screen bg-[#120303] flex flex-col items-center justify-center px-4 py-12 font-atelier">
+      <div className="min-h-screen bg-[#120303] flex flex-col items-center justify-center px-4 py-4 lg:py-12 font-atelier">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFFBF0] to-[#EAE3BA] mb-12 mt-6">
           Events
         </h1>
@@ -54,11 +54,11 @@ export default function EventsHomePage() {
           {events.map((event, index) => (
             <div
               key={index}
-              className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg hover:opacity-60 cursor-pointer hover:ease-in-out`}
+              className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg hover:opacity-80  cursor-pointer`}
               onClick={() => handleEventClick(event.name, event.bg)}
               style={{ backgroundImage: `url(${event.img})`, backgroundSize: "cover", backgroundPosition: "center" }}
             >
-              <span className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#ffcc00] px-4 py-2 rounded-md md:rotate-270 z-100">
+              <span className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#ffcc00] px-4 py-2 rounded-md md:rotate-270 ">
                 {event.name}
               </span>
             </div>
