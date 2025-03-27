@@ -4,7 +4,7 @@ import homePage from '../constants/home_page'
 
 const HomePage = () => {
     return (
-        <div className='w-full min-h-screen flex flex-col items-center justify-center 2xl:mx-auto'>
+        <div className='w-full flex flex-col items-center justify-center 2xl:mx-auto'>
             <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center">
                 <div className="absolute inset-0 z-0">
                     <Image
@@ -44,8 +44,7 @@ const HomePage = () => {
                     className="object-contain opacity-80 w-full h-full"
                 />
             </section > */}
-
-            <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center">
+            <section className="min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-center">
                 <div className="absolute inset-0 z-0">
                     <Image
                         src="/images/time_bg.png"
@@ -55,19 +54,42 @@ const HomePage = () => {
                         priority
                     />
                 </div>
-                <div className="z-10 text-center px-4">
-                <div className="text-7xl sm:text-8xl md:text-[12rem] lg:text-[10rem] my-4 select-none mx-8 drop-shadow-3xl text-center bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.3)] bg-clip-text text-transparent font-atelier">
-                            Timeless
-                            <br />
-                            Mirage
-                        </div>
-                        <div className="text-xl sm:text-3xl md:text-5xl py-8 select-none mx-8 drop-shadow-3xl text-center text-[#EAE3BA] font-atelier">
-                            A Journey Through Illusion
-                        </div>
+                <div className='w-full flex flex-col items-center justify-center z-10'>
+                    <div className="text-7xl sm:text-8xl md:text-[12rem] lg:text-[10rem] my-4 select-none mx-8 drop-shadow-3xl text-center bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.3)] bg-clip-text text-transparent font-atelier">
+                        Timeless
+                        <br />
+                        Mirage
+                    </div>
+                    <div className="text-xl sm:text-3xl md:text-5xl py-8 select-none mx-8 drop-shadow-3xl text-center text-[#EAE3BA] font-atelier">
+                        A Journey Through Illusion
+                    </div>
                 </div>
-                {/* <div className='w-full min-h-screen'></div> */}
             </section>
-
+            <section className="min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-around">
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/compass.png"
+                        alt="Hero Background"
+                        fill
+                        className="object-cover"
+                        priority
+                    />
+                </div>
+                    <p>{homePage.para1}</p>
+                    <p>{homePage.para2}</p>
+            </section>
+            <section className="min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-around">
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/compass.png"
+                        alt="Hero Background"
+                        fill
+                        className="object-cover"
+                        priority
+                    />
+                </div>
+                    
+            </section>
         </div>
     )
 }
