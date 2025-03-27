@@ -5,9 +5,9 @@ import { Parallax } from "react-scroll-parallax";
 
 const HomePage = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center 2xl:mx-auto">
-      <Parallax speed={-50} className="w-full ">
-        <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center">
+    <div className="w-full flex flex-col items-center relative justify-center 2xl:mx-auto">
+      <Parallax speed={-50} className="w-full min-h-screen ">
+        <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center ">
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/hero_bg.jpg"
@@ -36,22 +36,22 @@ const HomePage = () => {
           </div>
         </section>
       </Parallax>
-      <Parallax speed={20} className="w-full h-full relative">
-        <section className=" z-100 absolute h-screen  w-full ">
-          <div className="absolute w-full h-full -translate-y-1/2">
+      <Parallax speed={10} className="w-full relative z-10 h-[50vh] -mt-[25vh]">
+        <section className=" z-100 absolute h-screen  w-full -mt-[20vh]">
+          <div className="absolute w-screen h-full ">
             <Image
-              src="/images/rocksandsand.png"
+              src="/images/rocksandsandcr.png"
               alt="Time Wheel"
               priority
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               className="z-[-1]"
             />
           </div>
         </section>
       </Parallax>
 
-      <section className="z-1 min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-center">
+      <section className="z-1 min-h-[120vh] w-full relative bg-black flex flex-col items-center justify-center -mt-[20vh]">
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/time_bg.png"
