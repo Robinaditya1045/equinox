@@ -5,11 +5,14 @@ import homePage from "@/constants/home_page";
 import { sponsors } from "@/constants/sponsors";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import { motion } from "framer-motion";
-import Footer from "@/components/Footer";
-import {Alata} from "next/font/google"
+// import Footer from "@/components/Footer";
+// import {Alata} from "next/font/google"
 
  
-const inter = Alata({weight: '400'})
+// const inter = Alata({
+//   weight: '400',
+//   subsets: ['latin']
+// })
 const HomePage = () => {
   return (
     <ParallaxProvider>
@@ -294,7 +297,7 @@ const HomePage = () => {
             </div>
           </motion.div>
         </section>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </ParallaxProvider>
   );

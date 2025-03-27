@@ -43,10 +43,10 @@
             "description": "The Founder of Pizza Wallet. Pizza Wallet aims to makes the process of setting up a wallet as easy as eating a slice of pizza. The ease of web2 with the security of web3."
         },
         {
-            "name": "Prashant Yadav",
-            "role": "Student at IIIT Lucknow, FOSS Enthusiast",
-            "image": "/images/speakerImages/prashantYadav.jpg",
-            "description": "Student at IIIT Lucknow with a passion for open-source software."
+            "name": "Venkatesha",
+            "role": "Atlassian",
+            "image": "/images/speakerImages/venkatesha.jpg",
+            "description": "Works at Atlassian with expertise in software and team collaboration tools."
         },
         {
             "name": "James Reily",
@@ -55,10 +55,10 @@
             "description": "Volunteer at FOSS United Lucknow"
         },
         {
-            "name": "Venkatesha",
-            "role": "Atlassian",
-            "image": "/images/speakerImages/venkatesha.jpg",
-            "description": "Works at Atlassian with expertise in software and team collaboration tools."
+            "name": "Prashant Yadav",
+            "role": "Student at IIIT Lucknow, FOSS Enthusiast",
+            "image": "/images/speakerImages/prashantYadav.jpg",
+            "description": "Student at IIIT Lucknow with a passion for open-source software."
         }
     ]
 }
