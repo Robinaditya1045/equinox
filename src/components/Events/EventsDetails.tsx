@@ -134,7 +134,7 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName, bg_img }) => {
       {/* Left side: vertical title column (always visible) */}
       <div className="w-full md:w-1/4 flex flex-col justify-center items-center md:pr-8">
         <div
-          className={`text-6xl md:mt-8 mb-10 ${bg_img} bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
+          className={`text-6xl md:mt-8 mb-10 bg-[#EAE3BA] bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
         >
           {titleLines.map((line, idx) => (
             <div key={idx}>
