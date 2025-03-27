@@ -6,13 +6,16 @@ import { sponsors } from "@/constants/sponsors";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import { motion } from "framer-motion";
 import Footer from "@/components/Footer";
+import {Alata} from "next/font/google"
 
+ 
+const inter = Alata({weight: '400'})
 const HomePage = () => {
   return (
     <ParallaxProvider>
-      <div className="w-full flex flex-col overflow-hidden items-center relative justify-center 2xl:mx-auto">
+      <div className="relative flex flex-col items-center justify-center w-full overflow-hidden 2xl:mx-auto">
         <Parallax speed={-50} className="w-full min-h-screen ">
-          <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center ">
+          <section className="relative flex flex-col items-center justify-center w-full min-h-screen bg-black ">
             <div className="absolute inset-0 z-0">
               <Image
                 src="/images/hero_bg.jpg"
@@ -22,8 +25,8 @@ const HomePage = () => {
                 priority
               />
             </div>
-            <div className="absolute inset-0 z-5 flex items-center justify-center">
-              <div className="w-[300px] sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px] animate-[spin_20s_linear_infinite]">
+            <div className="absolute inset-0 flex items-center justify-center z-5">
+              <div className="w-[360px] sm:w-[420px] md:w-[530px] lg:w-[660px] xl:w-[780px] 2xl:w-[950px] animate-[spin_20s_linear_infinite]">
                 <Image
                   src="/images/time_wheel.png"
                   alt="Time Wheel"
@@ -34,8 +37,8 @@ const HomePage = () => {
                 />
               </div>
             </div>
-            <div className="z-10 text-center px-4">
-              <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text[9rem] 2xl:text-[10rem] font-bold text-white mb-6 font-atelier">
+            <div className="z-10 px-4 text-center">
+              <h1 className="text-9xl xl:text[9rem] 2xl:text-[14rem] select-none font-bold bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.8)] bg-clip-text mb-6 font-atelier text-transparent">
                 Equinox
               </h1>
             </div>
@@ -69,7 +72,7 @@ const HomePage = () => {
               priority
             />
           </div>
-          <div className="w-full flex flex-col items-center justify-center z-10">
+          <div className="z-10 flex flex-col items-center justify-center w-full">
             <div className="text-7xl sm:text-8xl md:text-[12rem] lg:text-[10rem] my-4 select-none mx-8 drop-shadow-3xl text-center bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.3)] bg-clip-text text-transparent font-atelier">
               Timeless
               <br />
@@ -129,19 +132,19 @@ const HomePage = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
-            className="w-full flex flex-col items-center justify-center py-10 space-y-8"
+            className="flex flex-col items-center justify-center w-full py-10 space-y-8"
           >
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="font-atelier text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center mb-16"
+              className="mb-16 text-2xl text-center font-atelier md:text-3xl lg:text-4xl xl:text-6xl"
             >
               Our Sponsors
             </motion.h2>
 
-            <div className="w-full flex flex-col items-center space-y-10">
+            <div className="flex flex-col items-center w-full space-y-10">
               {/* Premium Sponsors */}
               <motion.div
                 initial={{ opacity: 0 }}
@@ -177,7 +180,7 @@ const HomePage = () => {
                         scale: 1.05,
                         transition: { duration: 0.2 },
                       }}
-                      className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                      className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
                     >
                       <Image
                         src={image}
@@ -226,7 +229,7 @@ const HomePage = () => {
                         scale: 1.05,
                         transition: { duration: 0.2 },
                       }}
-                      className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                      className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
                     >
                       <Image
                         src={image}
@@ -275,7 +278,7 @@ const HomePage = () => {
                         scale: 1.05,
                         transition: { duration: 0.2 },
                       }}
-                      className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative flex items-center justify-center"
+                      className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
                     >
                       <Image
                         src={image}
