@@ -1,15 +1,13 @@
-// import Image from "next/image";
-'use client'
-import { ParallaxProvider } from "react-scroll-parallax";
-import HomePage from "./components/HomePage";
+import React from "react";
 
-export default function Home() {
+import HomePage from "./home/page";
+
+const main = () => {
   return (
-    <div>
-      <ParallaxProvider>
-
+    <>
       <HomePage />
-      </ParallaxProvider>
-    </div>
+    </>
   );
-}
+};
+
+export default main;

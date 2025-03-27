@@ -1,10 +1,12 @@
+'use client';
 import Image from "next/image";
 import React from "react";
-import homePage from "../constants/home_page";
-import { Parallax } from "react-scroll-parallax";
+import homePage from "@/constants/home_page";
+import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 
 const HomePage = () => {
   return (
+    <ParallaxProvider>
     <div className="w-full flex flex-col items-center relative justify-center 2xl:mx-auto">
       <Parallax speed={-50} className="w-full min-h-screen ">
         <section className="min-h-screen w-full relative bg-black flex flex-col items-center justify-center ">
@@ -18,14 +20,14 @@ const HomePage = () => {
             />
           </div>
           <div className="absolute inset-0 z-5 flex items-center justify-center">
-            <div className="w-[300px] sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px]">
+            <div className="w-[300px] sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px] animate-[spin_20s_linear_infinite]">
               <Image
-                src="/images/time_wheel.png"
-                alt="Time Wheel"
-                priority
-                width={700}
-                height={700}
-                className="object-contain opacity-80 w-full h-full"
+              src="/images/time_wheel.png"
+              alt="Time Wheel"
+              priority
+              width={700}
+              height={700}
+              className="object-contain w-full h-full"
               />
             </div>
           </div>
@@ -97,6 +99,7 @@ const HomePage = () => {
         </div>
       </section>
     </div>
+    </ParallaxProvider>
   );
 };
 
