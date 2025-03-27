@@ -1,15 +1,9 @@
+import EventsHomePage from "@/components/Events/EventsHomePage";
 
-
-
-import React from "react";
-
-
-const eventsPage = () => {
-    return (
-        <>
-        <h1>Events</h1>
-        </>
-    )
+export default function Page() {
+  return (
+    <div>
+      <EventsHomePage />
+    </div>
+  );
 }
-
-export default eventsPage
