@@ -15,7 +15,7 @@ interface PeopleProps {
 const People: React.FC<PeopleProps> = ({ people, title }) => {
   // Destructure props here
   return (
-    <section className="relative z-10 w-full max-w-4xl px-4 mt-10">
+    <section className="relative z-10 w-full max-w-4xl px-4 ">
       <h1
         className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl
                 mb-8 sm:mb-12 font-atelier
@@ -35,7 +35,7 @@ const People: React.FC<PeopleProps> = ({ people, title }) => {
           <div
             key={person.id}
             className="flex flex-col items-center justify-center
-                            w-full sm:w-20wh md:w-20wh max-w-[300px]
+                            w-full sm:w-20wh sm:w-20wh md:w-20wh max-w-[300px]
                             transition-transform duration-300 hover:scale-105"
           >
             <div
