@@ -24,27 +24,6 @@
                 "registration_link": "https://example.com"
             },
             {
-                "name": "Scratch-a-thon",
-                "start_time": "10:00 AM",
-                "start_date": "27-28 March",
-                "description": "A 2-hour in-person coding challenge on Scratch, where participants build creative projects like games, interactive stories, or animations.",
-                "mode": "Offline",
-                "duration": "2 hours",
-                "rules": [
-                    "Must attend offline event in person",
-                    "Bring your own laptop",
-                    "All work must be original",
-                    "No explicit content allowed"
-                ],
-                "poc": [
-                    {
-                        "name": "Scratch Event Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
-                    }
-                ],
-                "registration_link": "https://example.com"
-            },
-            {
                 "name": "RiceFest",
                 "start_time": "12:00 AM",
                 "start_date": "1-6 April",
@@ -83,27 +62,6 @@
                 "poc": [
                     {
                         "name": "Code Smackdown Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
-                    }
-                ],
-                "registration_link": "https://example.com"
-            },
-            {
-                "name": "Scavenger Hunt",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
-                "description": "A multi-stage puzzle event combining Git, debugging, Linux commands, and open-source contribution tasks.",
-                "mode": "Online/Offline",
-                "duration": "2 days",
-                "rules": [
-                    "Complete challenges in sequence",
-                    "Use only allowed tools",
-                    "No external help",
-                    "Complete within time frame"
-                ],
-                "poc": [
-                    {
-                        "name": "Scavenger Hunt Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
                 ],
@@ -182,7 +140,7 @@
             {
                 "name": "IIITL Cup",
                 "start_time": "10:00 PM",
-                "start_date": "2 April",
+                "start_date": "3 April",
                 "description": "An institute-wide programming competition testing individual algorithmic skills.",
                 "mode": "Online Prelims, Offline Finals",
                 "duration": "Prelims: 2 Hours, Finals: 3 Hours",
@@ -203,7 +161,7 @@
             {
                 "name": "Global Contest",
                 "start_time": "9:00 PM",
-                "start_date": "8 April",
+                "start_date": "11 April",
                 "description": "An online competitive programming contest open to everyone, mirroring a Codeforces round.",
                 "mode": "Online",
                 "duration": "2 hours 15 minutes",
@@ -324,7 +282,7 @@
             {
                 "name": "Prompt Breach",
                 "start_time": "9:00 AM",
-                "start_date": "10-12 April",
+                "start_date": "9 April",
                 "description": "An offline tournament where teams defend their unique code words using custom-crafted system prompts.",
                 "mode": "Offline",
                 "duration": "4-5 hours",
@@ -350,7 +308,7 @@
             {
                 "name": "Hackofiesta 6.1",
                 "start_time": "9:00 AM",
-                "start_date": "6-7 April",
+                "start_date": "5-6 April",
                 "description": "A 24-hour Web3 hackathon with workshops, talks, and prizes for innovative solutions.",
                 "mode": "Offline",
                 "duration": "24 Hours",
@@ -376,7 +334,7 @@
             {
                 "name": "Advertisement Design Challenge",
                 "start_time": "12:00 AM",
-                "start_date": "31 March-2 April",
+                "start_date": "7-9 April",
                 "description": "A 3-day Canva-based contest for creating innovative advertisements.",
                 "mode": "Online",
                 "duration": "3 Days",
@@ -397,7 +355,7 @@
             {
                 "name": "Figma Animation Challenge",
                 "start_time": "12:00 AM",
-                "start_date": "27-31 March",
+                "start_date": "8-12 April",
                 "description": "A 5-day contest where individuals design and animate landing pages using Figma.",
                 "mode": "Online",
                 "duration": "5 Days",
@@ -510,7 +468,7 @@
             {
                 "name": "Appophilia",
                 "start_time": "12:00 AM",
-                "start_date": "27-31 March",
+                "start_date": "26-31 March",
                 "description": "A week-long app development challenge requiring participants to build functional applications using provided APIs.",
                 "mode": "Online",
                 "duration": "1 Week",
@@ -531,7 +489,7 @@
             {
                 "name": "Adalo No-Code UI Sprint",
                 "start_time": "12:00 AM",
-                "start_date": "7-9 April",
+                "start_date": "31 March-2 April",
                 "description": "A 3-day competition where individuals build fully functional mobile and web apps using Adalo without writing code.",
                 "mode": "Online",
                 "duration": "3 Days",
@@ -544,27 +502,6 @@
                 "poc": [
                     {
                         "name": "Adalo Sprint Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
-                    }
-                ],
-                "registration_link": "https://example.com"
-            },
-            {
-                "name": "Code Collide",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
-                "description": "A 5-day online event where freshers merge functionalities of two existing apps into a creative prototype.",
-                "mode": "Online",
-                "duration": "5 Days",
-                "rules": [
-                    "Freshers only",
-                    "Merge functionalities of two apps",
-                    "Create innovative prototype",
-                    "Functional application required"
-                ],
-                "poc": [
-                    {
-                        "name": "Code Collide Coordinator",
                         "phone": "+91-XXXXX-XXXXX"
                     }
                 ],
