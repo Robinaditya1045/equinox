@@ -17,18 +17,6 @@ export const coordinators = [
     },
 ];
 
-export const axiosCoordinators = [
-    {
-        id: 1,
-        name: "Shubham Roy",
-        image: "/images/DummyImage.jpg",
-    },
-    {
-        id: 2,
-        name: "Dhruv Chouhan",
-        image: "/images/DummyImage.jpg",
-    },
-];
 
 export const Convenors = [
     {

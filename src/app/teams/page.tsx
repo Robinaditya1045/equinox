@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import People from "@/components/People";
 import TeamDetails from "@/components/TeamDetails";
-import { axiosCoordinators, Convenors, coordinators } from "@/constants/cordi";
+import {Convenors, coordinators } from "@/constants/cordi";
 
 
 const TeamsPage = () => {
