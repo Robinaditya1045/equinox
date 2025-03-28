@@ -1,8 +1,13 @@
 import React from "react";
 import speakersData from "../data/speakers.json";
 import { SpeakerCard } from "@/components/SpeakerCard";
+import { Metadata } from "next";
 
 const { speakers } = speakersData;
+
+export const metadata: Metadata = {
+    title: 'Equinox | Speakers',
+};
 
 
 const SpeakerPage = () => {
