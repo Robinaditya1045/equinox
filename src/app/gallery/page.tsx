@@ -1,6 +1,11 @@
 import React from "react";
 import GalleryGrid from "@/components/Gallery/GalleryGrid";
 import images from "@/data/gallery.json"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Equinox | Gallery',
+};
 
 const Gallery = () => {
   return (
