@@ -94,7 +94,7 @@ const HomePage = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
-            className="w-full p-10 text-center font-young-serif md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] z-100"
+            className="w-full p-10 text-center font-alata md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] z-100 text-[#EAE3BA]"
           >
             <p className="md:text-lg lg:text-xl xl:text-2xl">
               {homePage.para1}
@@ -106,14 +106,14 @@ const HomePage = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
-            className="w-full p-10 text-center font-young-serif md:w-[85%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%] z-100"
+            className="w-full p-10 text-center font-alata md:w-[85%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%] z-100 text-[#EAE3BA]"
           >
             <p className="md:text-lg lg:text-xl xl:text-2xl">
               {homePage.para2}
             </p>
           </motion.div>
         </section>
-        <section className="min-h-[120vh] w-full relative bg-[#0C0202] flex flex-col items-center justify-start">
+        <section className="min-h-[120vh] w-full relative bg-[#0C0202] flex flex-col items-center justify-start pt-30">
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/compass.png"

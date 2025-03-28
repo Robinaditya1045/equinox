@@ -61,17 +61,17 @@ export default function EventsHomePage() {
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-8 lg:grid-cols-8 gap-6 md:gap-4 w-full max-w-6xl px-4">
             {events.map((event, index) => (
-              <div
+                <div
                 key={index}
-                className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg hover:opacity-80  cursor-pointer`}
+                className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg hover:opacity-80 cursor-pointer`}
                 onClick={() => handleEventClick(event.name, event.bg)}
                 style={{
-                  backgroundImage: `url(${event.img})`,
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${event.img})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                 }}
-              >
-                <span className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#ffcc00] px-4 py-2 rounded-md md:rotate-270 ">
+                >
+                <span className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#d6a081] px-4 py-2 rounded-md md:rotate-270 ">
                   {event.name}
                 </span>
               </div>
