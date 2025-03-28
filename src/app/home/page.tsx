@@ -14,7 +14,7 @@ const HomePage = () => {
           <section className="relative flex flex-col items-center justify-center w-full min-h-screen bg-black ">
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/hero_bg.jpg"
+                src="/images/hero_bg.png"
                 alt="Hero Background"
                 fill
                 className="object-cover"
@@ -34,14 +34,14 @@ const HomePage = () => {
               </div>
             </div>
             <div className="z-10 px-4 text-center">
-              <h1 className="text-9xl xl:text[9rem] 2xl:text-[14rem] select-none font-bold bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.8)] bg-clip-text mb-6 font-atelier text-transparent">
+              <h1 className="text-[5rem] xl:text[9rem] 2xl:text-[14rem] select-none font-bold bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.8)] bg-clip-text mb-6 font-atelier text-transparent">
                 Equinox
               </h1>
             </div>
           </section>
         </Parallax>
         <Parallax
-          speed={10}
+          speed={6}
           className="w-full relative z-10 h-[50vh] -mt-[25vh]"
         >
           <section className=" z-100 absolute h-screen  w-full -mt-[20vh]">
@@ -135,7 +135,7 @@ const HomePage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="mb-16 text-2xl text-center font-atelier md:text-3xl lg:text-4xl xl:text-6xl"
+              className="mb-16 text-2xl text-center font-atelier md:text-3xl lg:text-4xl xl:text-6xl z-10"
             >
               Our Sponsors
             </motion.h2>
@@ -154,7 +154,7 @@ const HomePage = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
                   viewport={{ once: true }}
-                  className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#EAE3BA]"
+                  className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#EAE3BA] z-10"
                 >
                   Premium Sponsors
                 </motion.p>
@@ -203,7 +203,7 @@ const HomePage = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
                   viewport={{ once: true }}
-                  className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 text-[#D4AF37]"
+                  className="font-atelier text-xl lg:text-2xl xl:text-3xl text-center mb-8 z-10 text-[#D4AF37]"
                 >
                   Gold Sponsors
                 </motion.p>
