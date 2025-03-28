@@ -130,27 +130,28 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
   const titleLines = splitTitle(title);
 
   return (
-    <div className="flex flex-col md:flex-row items-stretch text-white bg-[#120303] md:px-6 py-8 mx-auto max-w-6xl font-atelier md:gap-12">
+    <div className="flex flex-col md:flex-row items-stretch text-white bg-[#120303] mx-2 mr-2 md:mx-auto md:mr-0  md:px-6 py-8 max-w-6xl font-atelier md:gap-12">
       {/* Left side: vertical title column (always visible) */}
       <div className="w-full md:w-1/4 flex flex-col justify-center items-center md:pr-8">
-        <div
-          className={`text-6xl md:mt-8 mb-10 bg-[#EAE3BA] bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
+        <h1
+          className={` text-4xl xs:text-5xl md:text-7xl md:mt-8 mb-10 bg-[#EAE3BA] bg-cover bg-center font-extrabold md:rotate-270 text-center bg-clip-text text-transparent`}
         >
           {titleLines.map((line, idx) => (
             <div key={idx}>{line}</div>
           ))}
-        </div>
+          {/* {title} */}
+        </h1>
       </div>
 
       {/* Right side: conditionally show either the list of events OR single event */}
-      <div className=" flex flex-row justify-center" ref={eventRef}>
+      <div className=" flex flex-row justify-center mx-1 " ref={eventRef}>
         {selectedEvent ? (
           <SingleEvent
             event={selectedEvent}
             onBack={() => setSelectedEvent(null)}
           />
         ) : (
-          <div className="flex flex-col justify-center space-y-6">
+          <div className="flex flex-col justify-center space-y-6 mx-2 mr-2 md:mx-0 md:mr-0">
             {events.map((item, index) => {
               const { start, end } = parseEventDateTime(
                 item.start_date,
