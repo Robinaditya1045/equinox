@@ -3,14 +3,14 @@
     { "id": 1, "name": "Ashmitha", "image": "/images/DummyImage.jpg" }
   ],
   "Public Relations": [
-    { "id": 2, "name": "Gyandeep", "image": "/images/DummyImage.jpg" }
+    { "id": 2, "name": "Gyandeep", "image": "/images/teamLeads/Gyandeep_Katiyar.jpg" }
   ],
   "Media": [
-    { "id": 3, "name": "Vibhore", "image": "/images/DummyImage.jpg" }
+    { "id": 3, "name": "Vibhore", "image": "/images/teamLeads/Vibhore_Shukla.jpg" }
   ],
   "Design": [
-    { "id": 4, "name": "Mayank", "image": "/images/DummyImage.jpg" },
-    { "id": 5, "name": "Manroop", "image": "/images/DummyImage.jpg" },
+    { "id": 4, "name": "Mayank", "image": "/images/teamLeads/Mayank_Rawat.jpeg" },
+    { "id": 5, "name": "Manroop", "image": "/images/teamLeads/Manroop_Kaur.jpg" },
     { "id": 6, "name": "Anushka", "image": "/images/DummyImage.jpg" },
     { "id": 7, "name": "Varsha", "image": "/images/DummyImage.jpg" }
   ],
@@ -19,27 +19,28 @@
     { "id": 9, "name": "Shivam", "image": "/images/DummyImage.jpg" },
     { "id": 10, "name": "Morark", "image": "/images/DummyImage.jpg" },
     { "id": 11, "name": "Akshat", "image": "/images/DummyImage.jpg" },
-    { "id": 12, "name": "Asim", "image": "/images/DummyImage.jpg" }
+    { "id": 12, "name": "Asim", "image": "/images/teamLeads/Mohammed_Asim_Ahmed.jpg" }
   ],
   "HOF 6.1": [
-    { "id": 13, "name": "Disha", "image": "/images/DummyImage.jpg" },
+    { "id": 13, "name": "Disha", "image": "/images/teamLeads/disha.png" },
     { "id": 14, "name": "Divyansh", "image": "/images/DummyImage.jpg" }
   ],
   "Technical": [
     { "id": 15, "name": "Sridhar", "image": "/images/DummyImage.jpg" },
     { "id": 16, "name": "Akhilesh Jyotishi", "image": "/images/DummyImage.jpg" },
-    { "id": 17, "name": "Narasimha Reddy", "image": "/images/DummyImage.jpg" },
+    { "id": 17, "name": "Narasimha Reddy", "image": "/images/teamLeads/Narasimha_Reddy.jpeg" },
     { "id": 18, "name": "Ankit Yadav", "image": "/images/DummyImage.jpg" },
-    { "id": 19, "name": "Akshit", "image": "/images/DummyImage.jpg" },
-    { "id": 20, "name": "Samarth", "image": "/images/DummyImage.jpg" },
+    { "id": 19, "name": "Akshit", "image": "/images/teamLeads/Akshit_Nandan.jpg" },
+    { "id": 20, "name": "Samarth", "image": "/images/teamLeads/Samarth_Sahu.jpeg" },
     { "id": 21, "name": "Mayank", "image": "/images/DummyImage.jpg" },
     { "id": 22, "name": "Shubham", "image": "/images/DummyImage.jpg" },
     { "id": 23, "name": "Dhruv", "image": "/images/DummyImage.jpg" },
     { "id": 24, "name": "Disha", "image": "/images/DummyImage.jpg" },
-    { "id": 25, "name": "Pravin", "image": "/images/DummyImage.jpg" }
+    { "id": 25, "name": "Pravin", "image": "/images/teamLeads/Praveen.jpg" }
   ],
   "Content": [
     { "id": 26, "name": "Prisha", "image": "/images/DummyImage.jpg" },
     { "id": 27, "name": "Dhruv", "image": "/images/DummyImage.jpg" }
   ]
+
 }

@@ -2,9 +2,9 @@
   "Corporate Relations": [],
   "Public Relations": [],
   "Media": [
-    { "id": 1, "name": "Bhumika", "image": "/images/DummyImage.jpg" },
-    { "id": 2, "name": "Anurag", "image": "/teamImages/anurag.jpg" },
-    { "id": 3, "name": "Abhay Singh", "image": "/teamImages/abhay.jpg" }
+    { "id": 1, "name": "Bhumika", "image": "/images/teamImages/bhumika.png" },
+    { "id": 2, "name": "Anurag", "image": "/images/teamImages/anurag.jpg" },
+    { "id": 3, "name": "Abhay Singh", "image": "/images/teamImages/abhay.jpg" }
   ],
   "Design": [
     { "id": 4, "name": "Ranjni", "image": "/images/teamImages/ranjni.jpg" },
@@ -14,12 +14,12 @@
     { "id": 8, "name": "Rishabh", "image": "/images/teamImages/rishabh.jpg"}
   ],
   "Development": [
-    { "id": 9, "name": "Gaurav", "image": "/images/DummyImage.jpg" },
-    { "id": 10, "name": "Aditya", "image": "/images/DummyImage.jpg" },
-    { "id": 11, "name": "Rishi", "image": "/teamImages/rishi.jpg" },
-    { "id": 12, "name": "Prashant", "image": "/images/DummyImage.jpg" },
-    { "id": 13, "name": "Manish", "image": "/images/DummyImage.jpg" },
-    { "id": 14, "name": "Jovial", "image": "/images/DummyImage.jpg" },
+    { "id": 9, "name": "Gaurav", "image": "/images/teamImages/gaurav.png" },
+    { "id": 10, "name": "Aditya", "image": "/images/teamImages/adityam.png" },
+    { "id": 11, "name": "Rishi", "image": "/images/teamImages/rishi.png" },
+    { "id": 12, "name": "Prashant", "image": "/images/teamImages/prashant.png" },
+    { "id": 13, "name": "Manish", "image": "/images/teamImages/manish.png" },
+    { "id": 14, "name": "Jovial", "image": "/images/teamImages/jovial.png" },
     { "id": 15, "name": "Hitarth", "image": "/images/teamImages/hitarth.jpg" }
   ],
   "HOF 6.1": [

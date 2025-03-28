@@ -13,6 +13,7 @@
 
   --font-atelier: "atelier", sans-serif;
   --font-young-serif: "young-serif", sans-serif;
+  --font-alata: "alata", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,6 +39,12 @@ body {
 @font-face {
   font-family: "young-serif";
   src: url("/fonts/YoungSerif-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alata";
+  src: url("/fonts/Alata-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }

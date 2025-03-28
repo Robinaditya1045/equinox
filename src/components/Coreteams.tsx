@@ -47,6 +47,7 @@ const CorePeople: React.FC<PeopleProps> = ({ people, title }) => {
                 alt={person.name}
                 layout="fill"
                 objectFit="cover"
+                className="center object-fit"
                 quality={85}
                 priority
               />
