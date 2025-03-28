@@ -17,7 +17,7 @@
   "Development": [
     { "id": 8, "name": "Ankit", "image": "/images/DummyImage.jpg" },
     { "id": 9, "name": "Shivam", "image": "/images/DummyImage.jpg" },
-    { "id": 10, "name": "Morark", "image": "/images/DummyImage.jpg" },
+    
     { "id": 11, "name": "Akshat", "image": "/images/DummyImage.jpg" },
     { "id": 12, "name": "Asim", "image": "/images/teamLeads/Mohammed_Asim_Ahmed.jpg" }
   ],
@@ -33,10 +33,11 @@
     { "id": 19, "name": "Akshit", "image": "/images/teamLeads/Akshit_Nandan.jpg" },
     { "id": 20, "name": "Samarth", "image": "/images/teamLeads/Samarth_Sahu.jpeg" },
     { "id": 21, "name": "Mayank", "image": "/images/DummyImage.jpg" },
-    { "id": 22, "name": "Shubham", "image": "/images/DummyImage.jpg" },
-    { "id": 23, "name": "Dhruv", "image": "/images/DummyImage.jpg" },
+    { "id": 22, "name": "Shubham Roy", "image": "/images/DummyImage.jpg" },
+    { "id": 23, "name": "Dhruv Chouhan", "image": "/images/DummyImage.jpg" },
     { "id": 24, "name": "Disha", "image": "/images/DummyImage.jpg" },
-    { "id": 25, "name": "Pravin", "image": "/images/teamLeads/Praveen.jpg" }
+    { "id": 25, "name": "Praveen", "image": "/images/teamLeads/Praveen.jpg" }
+
   ],
   "Content": [
     { "id": 26, "name": "Prisha", "image": "/images/DummyImage.jpg" },

@@ -21,7 +21,7 @@ const TeamsPage = () => {
                 />
             </div>
             
-                <People people={axiosCoordinators} title="Axios Coordinators" />
+                {/* <People people={axiosCoordinators} title="Axios Coordinators" /> */}
             
             <People people={coordinators} title="Coordinators"/>
             <People people={Convenors} title="Convenors" />
