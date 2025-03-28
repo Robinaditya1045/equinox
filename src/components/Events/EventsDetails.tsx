@@ -187,7 +187,7 @@ const EventDetails: React.FC<EventDetailsProps> = ({ eventName }) => {
                   <p className="text-sm text-[#977864] mb-4">
                     Start Time: {item.start_time} | {item.start_date}
                   </p>
-                  <p className="text-base text-[#D9D9D9]">{item.description}</p>
+                  <p className="text-base text-[#D9D9D9] font-alata ">{item.description}</p>
                 </div>
               );
             })}

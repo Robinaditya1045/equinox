@@ -125,7 +125,7 @@ const SingleEvent: React.FC<SingleEventProps> = ({ event, onBack }) => {
 
         {/* Description */}
         <div>
-          <p className="text-sm sm:text-base text-[#D9D9D9]">
+          <p className="text-sm sm:text-base text-[#D9D9D9] font-alata">
             {event.description}
           </p>
         </div>
@@ -135,7 +135,7 @@ const SingleEvent: React.FC<SingleEventProps> = ({ event, onBack }) => {
           <h2 className="text-lg sm:text-xl font-bold mb-1 text-[#977864]">
             Rules
           </h2>
-          <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-[#D9D9D9]">
+          <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-[#D9D9D9] font-alata">
             {event.rules.map((rule, idx) => (
               <li key={idx}>{rule}</li>
             ))}
@@ -148,7 +148,7 @@ const SingleEvent: React.FC<SingleEventProps> = ({ event, onBack }) => {
             POC
           </h2>
           {event.poc.map((p, idx) => (
-            <p key={idx} className="text-xs sm:text-sm text-[#D9D9D9]">
+            <p key={idx} className="text-xs sm:text-sm text-[#D9D9D9] font-alata">
               {p.name} - {p.phone}
             </p>
           ))}
