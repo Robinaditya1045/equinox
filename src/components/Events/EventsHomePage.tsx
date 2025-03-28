@@ -46,8 +46,8 @@ export default function EventsHomePage() {
         ))}
       </Head>
 
-      <div className="min-h-screen bg-[#120303]">
-       <div className="min-h-screen flex flex-col items-center justify-center px-4 py-4 lg:py-4 font-atelier">
+      <div className="min-h-screen bg-[#120303] flex flex-col items-center justify-center px-4 py-4 lg:py-4 font-atelier">
+       <div className="min-h-screen w-full flex flex-col items-center justify-center px-4 py-4 lg:py-4 font-atelier">
        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFFBF0] to-[#EAE3BA] mb-12 mt-6">
           Events
         </h1>
@@ -56,7 +56,7 @@ export default function EventsHomePage() {
 
             <div
               key={index}
-              className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg hover:opacity-80  cursor-pointer`}
+              className={`h-24 md:h-96 lg:h-96 w-full ${event.bg} bg-cover bg-center flex items-center justify-center shadow-lg hover:opacity-80 cursor-pointer mask-[radial-gradient(ellipse_at_center,_rgba(0,0,0,1)_0%,_rgba(0,0,0,0.7)_40%,_rgba(0,0,0,0)_95%)] [-webkit-mask-image:radial-gradient(ellipse_at_center,_rgba(0,0,0,1)_0%,_rgba(0,0,0,0.7)_40%,_rgba(0,0,0,0)_95%)]`}
               onClick={() => handleEventClick(event.name, event.bg)}
               style={{ backgroundImage: `url(${event.img})`, backgroundSize: "cover", backgroundPosition: "center"  }}
             >
