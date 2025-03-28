@@ -46,7 +46,7 @@ export default function EventsHomePage() {
         ))}
       </Head>
 
-      <div className="min-h-screen bg-[#120303] flex flex-col items-center justify-center px-4 py-4 lg:py-4 font-atelier">
+      <div className="min-h-screen bg-[#120303]">
        <div className="min-h-screen flex flex-col items-center justify-center px-4 py-4 lg:py-4 font-atelier">
        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFFBF0] to-[#EAE3BA] mb-12 mt-6">
           Events

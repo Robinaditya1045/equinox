@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@types/react-slick": "^0.23.13",
     "equinox": "file:",
     "framer-motion": "^12.6.2",
     "lucide-react": "^0.484.0",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scroll-parallax": "^3.4.5"
+    "react-scroll-parallax": "^3.4.5",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
