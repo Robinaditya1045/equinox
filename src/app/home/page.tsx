@@ -33,9 +33,12 @@ const HomePage = () => {
                 />
               </div>
             </div>
-            <div className="z-10 px-4 text-center">
-              <h1 className="text-[5rem] xl:text[9rem] 2xl:text-[14rem] select-none font-bold bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.8)] bg-clip-text mb-6 font-atelier text-transparent">
+            <div className="z-10 px-4 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <h1 className="text-[5rem] xl:text-[9rem] 2xl:text-[14rem] select-none font-bold bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.8)] bg-clip-text font-atelier text-transparent">
                 Equinox
+              </h1>
+              <h1 className="text-[1rem] lg:text-[1.5rem] xl:text-[3rem] 2xl:text-[4rem] font-atelier bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.8)] bg-clip-text text-transparent">
+                27 March - 12 April
               </h1>
             </div>
           </section>
