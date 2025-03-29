@@ -25,7 +25,7 @@
   "HOF 6.1": [
     { "id": 16, "name": "Digvijay", "image": "/images/teamImages/digvijay.jpg" },
     { "id": 17, "name": "Vishal", "image": "/images/teamImages/vishal.jpg" },
-    { "id": 18, "name": "Raj Rakshit", "image": "/images/teamImages/raj.jpg" },
+    { "id": 18, "name": "Raj Rakshit", "image": "/images/teamImages/raj.png" },
     { "id": 19, "name": "Vedant", "image": "/images/teamImages/vedant.jpg" }
   ],
   "Technical": [],
