@@ -13,7 +13,7 @@ export const coordinators = [
     {
         id: 3,
         name: "Pavana Saketha",
-        image: "/images/DummyImage.jpg",
+        image: "/images/teamLeads/pavanasaketha.png",
     },
 ];
 
@@ -22,7 +22,7 @@ export const Convenors = [
     {
         id: 1,
         name: "Dheeraj",
-        image: "/images/DummyImage.jpg",
+        image: "/images/teamLeads/dheeraj.png",
     },
     {
         id: 2,
