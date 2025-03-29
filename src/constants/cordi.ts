@@ -27,6 +27,6 @@ export const Convenors = [
     {
         id: 2,
         name: "Samarth",
-        image: "/images/DummyImage.jpg",
+        image: "/images/teamLeads/Samarth_Sahu.jpeg",
     },
 ];
