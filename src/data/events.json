@@ -18,7 +18,7 @@
                 "poc": [
                     {
                         "name": "FOSS Wing Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -40,7 +40,7 @@
                 "poc": [
                     {
                         "name": "RiceFest Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -62,7 +62,7 @@
                 "poc": [
                     {
                         "name": "Code Smackdown Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -89,7 +89,7 @@
                 "poc": [
                     {
                         "name": "Code Arena Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -110,7 +110,7 @@
                 "poc": [
                     {
                         "name": "Freshers Cup Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -132,7 +132,7 @@
                 "poc": [
                     {
                         "name": "Speedforces Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -153,7 +153,7 @@
                 "poc": [
                     {
                         "name": "IIITL Cup Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -176,7 +176,7 @@
                 "poc": [
                     {
                         "name": "Global Contest Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -202,7 +202,7 @@
                 "poc": [
                     {
                         "name": "Bug Smasher Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -224,7 +224,7 @@
                 "poc": [
                     {
                         "name": "CTF Event Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -252,7 +252,7 @@
                 "poc": [
                     {
                         "name": "Kaggle Cup Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -274,7 +274,7 @@
                 "poc": [
                     {
                         "name": "LLM Roast Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -295,7 +295,7 @@
                 "poc": [
                     {
                         "name": "Prompt Breach Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -321,7 +321,7 @@
                 "poc": [
                     {
                         "name": "Hackofiesta Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-8595803635"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -347,7 +347,7 @@
                 "poc": [
                     {
                         "name": "Ad Design Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7988532760"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -356,9 +356,9 @@
                 "name": "Figma Animation Challenge",
                 "start_time": "12:00 AM",
                 "start_date": "8-12 April",
-                "description": "A 5-day contest where individuals design and animate landing pages using Figma.",
+                "description": "A 10-day contest where individuals design and animate landing pages using Figma.",
                 "mode": "Online",
-                "duration": "5 Days",
+                "duration": "10 Days",
                 "rules": [
                     "Design landing pages",
                     "Create smooth transitions",
@@ -368,7 +368,7 @@
                 "poc": [
                     {
                         "name": "Figma Challenge Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7988532760"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -393,7 +393,7 @@
                 "poc": [
                     {
                         "name": "Overdrive Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9399376748"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -414,7 +414,7 @@
                 "poc": [
                     {
                         "name": "React Rumble Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9399376748"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -435,7 +435,7 @@
                 "poc": [
                     {
                         "name": "Super Deployment Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9399376748"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -460,7 +460,7 @@
                 "poc": [
                     {
                         "name": "CodeUI Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9177446658"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -481,7 +481,7 @@
                 "poc": [
                     {
                         "name": "Appophilia Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9177446658"
                     }
                 ],
                 "registration_link": "https://example.com"
@@ -502,7 +502,7 @@
                 "poc": [
                     {
                         "name": "Adalo Sprint Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9177446658"
                     }
                 ],
                 "registration_link": "https://example.com"

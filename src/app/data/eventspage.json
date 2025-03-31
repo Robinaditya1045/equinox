@@ -18,7 +18,7 @@
                 "poc": [
                     {
                         "name": "FOSS Wing Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ]
             },
@@ -38,7 +38,7 @@
                 "poc": [
                     {
                         "name": "Scratch Event Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ]
             },
@@ -59,7 +59,7 @@
                 "poc": [
                     {
                         "name": "RiceFest Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ]
             },
@@ -80,7 +80,7 @@
                 "poc": [
                     {
                         "name": "Code Smackdown Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ]
             },
@@ -100,7 +100,7 @@
                 "poc": [
                     {
                         "name": "Scavenger Hunt Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7317661617"
                     }
                 ]
             }
@@ -126,7 +126,7 @@
                 "poc": [
                     {
                         "name": "Code Arena Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ]
             },
@@ -146,7 +146,7 @@
                 "poc": [
                     {
                         "name": "Freshers Cup Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ]
             },
@@ -167,7 +167,7 @@
                 "poc": [
                     {
                         "name": "Speedforces Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ]
             },
@@ -187,7 +187,7 @@
                 "poc": [
                     {
                         "name": "IIITL Cup Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ]
             },
@@ -209,7 +209,7 @@
                 "poc": [
                     {
                         "name": "Global Contest Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9608692240"
                     }
                 ]
             }
@@ -234,7 +234,7 @@
                 "poc": [
                     {
                         "name": "Bug Smasher Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7588993577"
                     }
                 ]
             },
@@ -255,7 +255,7 @@
                 "poc": [
                     {
                         "name": "CTF Event Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7588993577"
                     }
                 ]
             }
@@ -282,7 +282,7 @@
                 "poc": [
                     {
                         "name": "Kaggle Cup Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ]
             },
@@ -303,7 +303,7 @@
                 "poc": [
                     {
                         "name": "LLM Roast Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ]
             },
@@ -323,7 +323,7 @@
                 "poc": [
                     {
                         "name": "Prompt Breach Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9867529878"
                     }
                 ]
             }
@@ -334,21 +334,21 @@
         "events": [
             {
                 "name": "Hackofiesta 6.1",
-                "start_time": "9:00 AM",
-                "start_date": "25-27 March",
+                "start_time": "3:00 PM",
+                "start_date": "5-6 April",
                 "description": "A 24-hour Web3 hackathon with workshops, talks, and prizes for innovative solutions.",
                 "mode": "Offline",
                 "duration": "24 Hours",
                 "rules": [
                     "Team-based competition",
-                    "4-5 members per team",
+                    "3-4 members per team",
                     "Focus on decentralized technologies",
                     "Create innovative Web3 solutions"
                 ],
                 "poc": [
                     {
                         "name": "Hackofiesta Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-8595803635"
                     }
                 ]
             }
@@ -373,7 +373,7 @@
                 "poc": [
                     {
                         "name": "Ad Design Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7988532760"
                     }
                 ]
             },
@@ -381,9 +381,9 @@
                 "name": "Figma Animation Challenge",
                 "start_time": "9:00 AM",
                 "start_date": "To be announced",
-                "description": "A 5-day contest where individuals design and animate landing pages using Figma.",
+                "description": "A 10-day contest where individuals design and animate landing pages using Figma.",
                 "mode": "Online",
-                "duration": "5 Days",
+                "duration": "10 Days",
                 "rules": [
                     "Design landing pages",
                     "Create smooth transitions",
@@ -393,7 +393,7 @@
                 "poc": [
                     {
                         "name": "Figma Challenge Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-7988532760"
                     }
                 ]
             }
@@ -417,7 +417,7 @@
                 "poc": [
                     {
                         "name": "Overdrive Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9399376748"
                     }
                 ]
             },
@@ -437,7 +437,7 @@
                 "poc": [
                     {
                         "name": "React Rumble Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9399376748"
                     }
                 ]
             },
@@ -457,7 +457,7 @@
                 "poc": [
                     {
                         "name": "Super Deployment Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9399376748"
                     }
                 ]
             }
@@ -481,7 +481,7 @@
                 "poc": [
                     {
                         "name": "CodeUI Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9177446658"
                     }
                 ]
             },
@@ -501,7 +501,7 @@
                 "poc": [
                     {
                         "name": "Appophilia Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9177446658"
                     }
                 ]
             },
@@ -521,27 +521,7 @@
                 "poc": [
                     {
                         "name": "Adalo Sprint Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
-                    }
-                ]
-            },
-            {
-                "name": "Code Collide",
-                "start_time": "9:00 AM",
-                "start_date": "To be announced",
-                "description": "A 5-day online event where freshers merge functionalities of two existing apps into a creative prototype.",
-                "mode": "Online",
-                "duration": "5 Days",
-                "rules": [
-                    "Freshers only",
-                    "Merge functionalities of two apps",
-                    "Create innovative prototype",
-                    "Functional application required"
-                ],
-                "poc": [
-                    {
-                        "name": "Code Collide Coordinator",
-                        "phone": "+91-XXXXX-XXXXX"
+                        "phone": "+91-9177446658"
                     }
                 ]
             }
