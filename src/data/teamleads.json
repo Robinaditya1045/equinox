@@ -15,10 +15,7 @@
     { "id": 7, "name": "Varsha", "image": "/images/teamLeads/varsha.png" }
   ],
   "Development": [
-    { "id": 8, "name": "Ankit", "image": "/images/teamLeads/ankit.png" },
-    { "id": 9, "name": "Shivam", "image": "/images/teamLeads/shivam.png" },
-    { "id": 11, "name": "Akshat", "image": "/images/teamLeads/akshat.png" },
-    { "id": 12, "name": "Asim", "image": "/images/teamLeads/Mohammed_Asim_Ahmed.jpg" }
+    { "id": 16, "name": "Akhilesh Jyotishi", "image": "/images/teamLeads/akhilesh.png" }
   ],
   "HOF 6.1": [
     { "id": 13, "name": "Disha", "image": "/images/teamLeads/disha.png" },
