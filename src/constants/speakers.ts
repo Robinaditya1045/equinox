@@ -68,4 +68,25 @@ export const speakers = [
       description:
         "Works at Atlassian with expertise in software and team collaboration tools.",
     },
+    {
+      name: "Vandana Singh",
+      role: "SDE-II at Glance",
+      image: "/images/speakerImages/venkatesha.jpg",
+      description:
+        "Vandana Singh is an SDE-II at Glance and a skilled Mobile App Developer with 5 years of experience in native Android and Flutter development. She specializes in building high-performance apps with a strong focus on user experience and bug resolution.",
+    },
+    {
+      name: "Pratyush Mitta",
+      role: "Co-Founder of Mittal Analytics Private Limited",
+      image: "/images/speakerImages/venkatesha.jpg",
+      description:
+        "Pratyush Mitta is the Co-Founder of Mittal Analytics Private Limited. Passionate about web designing and blogging, he aims to build smart, automated web solutions by integrating his technical and financial expertise.",
+    },
+    {
+      name: "Yash",
+      role: "Backend Engineer",
+      image: "/images/speakerImages/venkatesha.jpg",
+      description:
+        "Yash is a Backend Engineer at Yarasi, active Django Software Foundation member, and DjangoNaut Fellow. He co-runs DjangoIndia and FOSSCU-k, promoting open-source knowledge across India. Specializes in Python, Django, and System Design.",
+    },
   ];

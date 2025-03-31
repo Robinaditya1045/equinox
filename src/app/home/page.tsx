@@ -161,36 +161,47 @@ const HomePage = () => {
                 >
                   Premium Sponsors
                 </motion.p>
-                <div
-                  className={`grid gap-6 mx-auto ${
-                    sponsors[0].images.length <= 2
-                      ? "grid-cols-2 max-w-md"
-                      : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-                  } place-items-center justify-center`}
-                >
-                  {sponsors[0].images.map((image, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.1 * index }}
-                      viewport={{ once: true, margin: "-50px" }}
-                      whileHover={{
-                        scale: 1.05,
-                        transition: { duration: 0.2 },
-                      }}
-                      className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
-                    >
-                      <Image
-                        src={image}
-                        alt={`${sponsors[0].title} sponsor ${index + 1}`}
-                        width={144}
-                        height={144}
-                        className="object-contain"
-                      />
-                    </motion.div>
-                  ))}
-                </div>
+                {sponsors[0].images.length > 0 ? (
+                  <div
+                    className={`grid gap-6 mx-auto ${
+                      sponsors[0].images.length <= 2
+                        ? "grid-cols-2 max-w-md"
+                        : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+                    } place-items-center justify-center`}
+                  >
+                    {sponsors[0].images.map((image, index) => (
+                      <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.1 * index }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        whileHover={{
+                          scale: 1.05,
+                          transition: { duration: 0.2 },
+                        }}
+                        className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
+                      >
+                        <Image
+                          src={image}
+                          alt={`${sponsors[0].title} sponsor ${index + 1}`}
+                          width={144}
+                          height={144}
+                          className="object-contain"
+                        />
+                      </motion.div>
+                    ))}
+                  </div>
+                ) : (
+                  <motion.p
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="text-center mb-20 text-xl lg:text-2xl xl:text-3xl text-[#EAE3BA] italic"
+                  >
+                    Coming Soon
+                  </motion.p>
+                )}
               </motion.div>
 
               {/* Gold Sponsors */}
@@ -210,36 +221,47 @@ const HomePage = () => {
                 >
                   Gold Sponsors
                 </motion.p>
-                <div
-                  className={`grid gap-6 mx-auto ${
-                    sponsors[1].images.length <= 2
-                      ? "grid-cols-2 max-w-md"
-                      : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-                  } place-items-center justify-center`}
-                >
-                  {sponsors[1].images.map((image, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.1 * index }}
-                      viewport={{ once: true, margin: "-50px" }}
-                      whileHover={{
-                        scale: 1.05,
-                        transition: { duration: 0.2 },
-                      }}
-                      className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
-                    >
-                      <Image
-                        src={image}
-                        alt={`${sponsors[1].title} sponsor ${index + 1}`}
-                        width={144}
-                        height={144}
-                        className="object-contain"
-                      />
-                    </motion.div>
-                  ))}
-                </div>
+                {sponsors[1].images.length > 0 ? (
+                  <div
+                    className={`grid gap-6 mx-auto ${
+                      sponsors[1].images.length <= 2
+                        ? "grid-cols-2 max-w-md"
+                        : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+                    } place-items-center justify-center`}
+                  >
+                    {sponsors[1].images.map((image, index) => (
+                      <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.1 * index }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        whileHover={{
+                          scale: 1.05,
+                          transition: { duration: 0.2 },
+                        }}
+                        className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
+                      >
+                        <Image
+                          src={image}
+                          alt={`${sponsors[1].title} sponsor ${index + 1}`}
+                          width={144}
+                          height={144}
+                          className="object-contain"
+                        />
+                      </motion.div>
+                    ))}
+                  </div>
+                ) : (
+                  <motion.p
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="text-center mb-20 text-xl lg:text-2xl xl:text-3xl text-[#EAE3BA] italic"
+                  >
+                    Coming Soon
+                  </motion.p>
+                )}
               </motion.div>
 
               {/* Silver Sponsors */}
@@ -259,36 +281,47 @@ const HomePage = () => {
                 >
                   Silver Sponsors
                 </motion.p>
-                <div
-                  className={`grid gap-6 mx-auto ${
-                    sponsors[2].images.length <= 2
-                      ? "grid-cols-2 max-w-md"
-                      : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-                  } place-items-center justify-center`}
-                >
-                  {sponsors[2].images.map((image, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.1 * index }}
-                      viewport={{ once: true, margin: "-50px" }}
-                      whileHover={{
-                        scale: 1.05,
-                        transition: { duration: 0.2 },
-                      }}
-                      className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
-                    >
-                      <Image
-                        src={image}
-                        alt={`${sponsors[2].title} sponsor ${index + 1}`}
-                        width={144}
-                        height={144}
-                        className="object-contain"
-                      />
-                    </motion.div>
-                  ))}
-                </div>
+                {sponsors[2].images.length > 0 ? (
+                  <div
+                    className={`grid gap-6 mx-auto ${
+                      sponsors[2].images.length <= 2
+                        ? "grid-cols-1 max-w-md"
+                        : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+                    } place-items-center justify-center`}
+                  >
+                    {sponsors[2].images.map((image, index) => (
+                      <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.1 * index }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        whileHover={{
+                          scale: 1.05,
+                          transition: { duration: 0.2 },
+                        }}
+                        className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
+                      >
+                        <Image
+                          src={image}
+                          alt={`${sponsors[2].title} sponsor ${index + 1}`}
+                          width={144}
+                          height={144}
+                          className="object-contain"
+                        />
+                      </motion.div>
+                    ))}
+                  </div>
+                ) : (
+                  <motion.p
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="text-center mb-20 text-xl lg:text-2xl xl:text-3xl text-[#EAE3BA] italic "
+                  >
+                    Coming Soon
+                  </motion.p>
+                )}
               </motion.div>
             </div>
           </motion.div>
