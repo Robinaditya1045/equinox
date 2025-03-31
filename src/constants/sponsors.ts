@@ -6,6 +6,11 @@ export const sponsors = [
         // "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png",
         // "https://upload.wikimedia.org/wikipedia/commons/d/db/Zeronet_logo.png",
         // "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+
+        // {
+        //   image : "/images/sponsors/icons8.png",
+        //    link: "https://icons8.com/",
+        // }
       ],
     },
     {
@@ -13,6 +18,10 @@ export const sponsors = [
       images: [
         // "https://logodix.com/logo/31950.png",
         // "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+        // {
+        //   image : "/images/sponsors/icons8.png",
+        //    link: "https://icons8.com/",
+        // }
       ],
     },
     {
@@ -20,8 +29,10 @@ export const sponsors = [
       images: [
         // "https://upload.wikimedia.org/wikipedia/commons/d/db/Zeronet_logo.png",
         // "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
-       
-        "/images/sponsors/icons8.png",
+       {
+         image : "/images/sponsors/icons8.png",
+          link: "https://icons8.com/",
+       }
 
       ],
     },

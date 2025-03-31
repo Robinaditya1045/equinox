@@ -5,6 +5,7 @@ import homePage from "@/constants/home_page";
 import { sponsors } from "@/constants/sponsors";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -165,7 +166,7 @@ const HomePage = () => {
                   <div
                     className={`grid gap-6 mx-auto ${
                       sponsors[0].images.length <= 2
-                        ? "grid-cols-2 max-w-md"
+                        ? "grid-cols-1 max-w-md"
                         : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
                     } place-items-center justify-center`}
                   >
@@ -182,13 +183,15 @@ const HomePage = () => {
                         }}
                         className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
                       >
-                        <Image
-                          src={image}
-                          alt={`${sponsors[0].title} sponsor ${index + 1}`}
-                          width={144}
-                          height={144}
-                          className="object-contain"
-                        />
+                        <Link target="_blank" href={sponsors[0].images[index].link}>
+                          <Image
+                            src={image.image}
+                            alt={`${sponsors[0].title} sponsor ${index + 1}`}
+                            width={144}
+                            height={144}
+                            className="object-contain"
+                          />
+                        </Link>
                       </motion.div>
                     ))}
                   </div>
@@ -225,7 +228,7 @@ const HomePage = () => {
                   <div
                     className={`grid gap-6 mx-auto ${
                       sponsors[1].images.length <= 2
-                        ? "grid-cols-2 max-w-md"
+                        ? "grid-cols-1 max-w-md"
                         : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
                     } place-items-center justify-center`}
                   >
@@ -242,13 +245,15 @@ const HomePage = () => {
                         }}
                         className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
                       >
-                        <Image
-                          src={image}
-                          alt={`${sponsors[1].title} sponsor ${index + 1}`}
-                          width={144}
-                          height={144}
-                          className="object-contain"
-                        />
+                        <Link target="_blank" href={sponsors[1].images[index].link}>
+                          <Image
+                            src={image.image}
+                            alt={`${sponsors[1].title} sponsor ${index + 1}`}
+                            width={144}
+                            height={144}
+                            className="object-contain"
+                          />
+                        </Link>
                       </motion.div>
                     ))}
                   </div>
@@ -302,13 +307,15 @@ const HomePage = () => {
                         }}
                         className="relative flex items-center justify-center w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
                       >
-                        <Image
-                          src={image}
-                          alt={`${sponsors[2].title} sponsor ${index + 1}`}
-                          width={144}
-                          height={144}
-                          className="object-contain"
-                        />
+                        <Link target="_blank" href={sponsors[2].images[index].link}>
+                          <Image
+                            src={image.image}
+                            alt={`${sponsors[2].title} sponsor ${index + 1}`}
+                            width={144}
+                            height={144}
+                            className="object-contain"
+                          />
+                        </Link>
                       </motion.div>
                     ))}
                   </div>
