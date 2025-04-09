@@ -39,7 +39,7 @@ const HomePage = () => {
                 Equinox
               </h1>
               <h1 className="text-[1rem] lg:text-[1.5rem] xl:text-[3rem] 2xl:text-[4rem] font-atelier bg-gradient-to-r from-[#FFFBF0] via-[#EAE3BA] to-[rgba(234,227,186,0.8)] bg-clip-text text-transparent">
-                27 March - 12 April
+                27 March - 19 April
               </h1>
             </div>
           </section>
